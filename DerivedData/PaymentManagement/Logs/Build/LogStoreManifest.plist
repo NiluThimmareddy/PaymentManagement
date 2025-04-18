@@ -5,6 +5,91 @@
 	<key>logFormatVersion</key>
 	<integer>11</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>07CF96CB-D885-4FD7-AAF8-FAB4490D3BDC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>07CF96CB-D885-4FD7-AAF8-FAB4490D3BDC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PaymentManagement project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PaymentManagement</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PaymentManagement</string>
+			<key>timeStartedRecording</key>
+			<real>766649564.87971103</real>
+			<key>timeStoppedRecording</key>
+			<real>766649567.22388101</real>
+			<key>title</key>
+			<string>Build PaymentManagement</string>
+			<key>uniqueIdentifier</key>
+			<string>07CF96CB-D885-4FD7-AAF8-FAB4490D3BDC</string>
+		</dict>
+		<key>D7E65CBB-B099-4571-80A0-F2285B5FF5DE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D7E65CBB-B099-4571-80A0-F2285B5FF5DE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PaymentManagement project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PaymentManagement</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PaymentManagement</string>
+			<key>timeStartedRecording</key>
+			<real>766649517.19065499</real>
+			<key>timeStoppedRecording</key>
+			<real>766649525.56576204</real>
+			<key>title</key>
+			<string>Build PaymentManagement</string>
+			<key>uniqueIdentifier</key>
+			<string>D7E65CBB-B099-4571-80A0-F2285B5FF5DE</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
