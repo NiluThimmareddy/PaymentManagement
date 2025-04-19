@@ -1,0 +1,26 @@
+version: "Apple Swift version 6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)"
+options: "c71d597c86480e3608ec808805aa496c1f2a77551f5960c4ad9d69d7b47251c9"
+build_start_time: [1745064247, 461405000]
+build_end_time: [1745064252, 158648000]
+inputs:
+  ? "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1745052185, 375007809]
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Application/AppDelegate.swift": [1744955658, 131865378]
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Application/SceneDelegate.swift": [1744955658, 134683287]
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Constant/Constant.swift": [1744982854, 440191402]
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Helper/ApiManager.swift": [1744964307, 350924841]
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Helper/AsyncDataServiceProtocol.swift": [1745063480, 865067349]
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Helper/FileManager.swift": [1745064246, 615908585]
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Helper/GenericViewModel.swift": [1745064246, 581252081]
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Screen/Customer/Model/CustomerModel.swift": [1745050005, 930980965]
+  ? "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Screen/Customer/View/CustomerViewController.swift"
+  : [1745063476, 530153536]
+  ? "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Screen/Customer/ViewModel/CustomerViewModel.swift"
+  : [1744975201, 365126535]
+  ? "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Screen/Dashboard/View/DashboardViewController.swift"
+  : [1744957123, 631509104]
+  ? "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Screen/Dashboard/View/LeftMenuViewController.swift"
+  : [1744975941, 134665678]
+  ? "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Screen/Invoice/View/InvoiceViewController.swift"
+  : [1744956840, 342817013]
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/ViewController.swift": [1744955658, 136071680]

@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+enum Constant {
+    enum JsonFileName {
+        static let CustomeFileName = "CustomerJsonData"
+        
+    }
+ 
+}
+
+
+
+
+

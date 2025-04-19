@@ -1,0 +1,65 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "456e8d0b38fd57669a365d1f9d577e7f7eb22f7779e125ee136ab9f668fcdc4b"
+    }
+  ],
+  "containerPath" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator18.1",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Products",
+      "derivedDataPath" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone17,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "18.1",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone17,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "C0E34A19-B431-44B8-B8D3-89C3B38B2B9B",
+          "TARGET_DEVICE_MODEL" : "iPhone17,1",
+          "TARGET_DEVICE_OS_VERSION" : "18.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "profile",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

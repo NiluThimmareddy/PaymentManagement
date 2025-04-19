@@ -1,0 +1,85 @@
+{
+  "" : {
+    "const-values" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/PaymentManagement-master.swiftconstvalues",
+    "dependencies" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/PaymentManagement-master.d",
+    "diagnostics" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/PaymentManagement-master.dia",
+    "emit-module-dependencies" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/PaymentManagement-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/PaymentManagement-master-emit-module.dia",
+    "swift-dependencies" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/PaymentManagement-master.swiftdeps"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Application/AppDelegate.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/AppDelegate.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Application/SceneDelegate.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/SceneDelegate.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Constant/Constant.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/Constant.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/Constant.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/Constant.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Helper/ApiManager.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/ApiManager.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/ApiManager.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/ApiManager.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Helper/AsyncDataServiceProtocol.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/AsyncDataServiceProtocol.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/AsyncDataServiceProtocol.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/AsyncDataServiceProtocol.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Helper/FileManager.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/FileManager.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/FileManager.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/FileManager.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Helper/GenericViewModel.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/GenericViewModel.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/GenericViewModel.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/GenericViewModel.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Screen/Customer/Model/CustomerModel.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/CustomerModel.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/CustomerModel.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/CustomerModel.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Screen/Customer/View/CustomerViewController.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/CustomerViewController.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/CustomerViewController.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/CustomerViewController.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Screen/Customer/ViewModel/CustomerViewModel.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/CustomerViewModel.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/CustomerViewModel.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/CustomerViewModel.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Screen/Dashboard/View/DashboardViewController.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/DashboardViewController.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/DashboardViewController.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/DashboardViewController.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Screen/Dashboard/View/LeftMenuViewController.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/LeftMenuViewController.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/LeftMenuViewController.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/LeftMenuViewController.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/Screen/Invoice/View/InvoiceViewController.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/InvoiceViewController.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/InvoiceViewController.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/InvoiceViewController.o"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/PaymentManagement/ViewController.swift" : {
+    "index-unit-output-path" : "/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/ViewController.o",
+    "llvm-bc" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/ViewController.bc",
+    "object" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/PaymentManagement/DerivedData/PaymentManagement/Build/Intermediates.noindex/PaymentManagement.build/Release-iphonesimulator/PaymentManagement.build/Objects-normal/arm64/ViewController.o"
+  }
+}

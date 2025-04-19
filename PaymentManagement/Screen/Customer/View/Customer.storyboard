@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
@@ -16,20 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CustomerList" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKv-8v-beX">
-                                <rect key="frame" x="145.66666666666666" y="415.66666666666669" width="102" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="sdfsdf" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tps-LL-89k">
+                                <rect key="frame" x="10" y="69" width="373" height="729"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="kKv-8v-beX" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="0P9-B6-BhW"/>
-                            <constraint firstItem="kKv-8v-beX" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="3tD-hC-nzs"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="tps-LL-89k" secondAttribute="trailing" constant="10" id="20M-03-Nol"/>
+                            <constraint firstItem="tps-LL-89k" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="2ni-0p-9RM"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="tps-LL-89k" secondAttribute="bottom" constant="20" id="DyF-XW-7x7"/>
+                            <constraint firstItem="tps-LL-89k" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="Jri-fm-ZHL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="customerListLabel" destination="tps-LL-89k" id="xfX-6x-Jjw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -37,6 +43,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
