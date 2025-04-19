@@ -1,0 +1,80 @@
+//
+//  CustomerJson.swift
+//  PaymentManagement
+//
+//  Created by ToqSoft on 18/04/25.
+//
+
+[
+  {
+    "CustoemrId": "C001",
+    "CompanyName": "Alpha Technologies",
+    "Address": "123 Tech Street",
+    "City": "Bangalore",
+    "State": "Karnataka",
+    "Country": "India",
+    "PhoneNumebr": "9876543210",
+    "EmailAddress": "contact@alpha.com",
+    "ContactPerson": "Rajesh Kumar",
+    "Vat": 12345,
+    "GST": 56789,
+    "Tax": 18.5
+  },
+  {
+    "CustoemrId": "C002",
+    "CompanyName": "Beta Corp",
+    "Address": "456 Industrial Road",
+    "City": "Hyderabad",
+    "State": "Telangana",
+    "Country": "India",
+    "PhoneNumebr": "8765432109",
+    "EmailAddress": "info@betacorp.com",
+    "ContactPerson": "Anita Desai",
+    "Vat": 23456,
+    "GST": 67890,
+    "Tax": 12.0
+  },
+  {
+    "CustoemrId": "C003",
+    "CompanyName": "Gamma Solutions",
+    "Address": "789 Business Bay",
+    "City": "Chennai",
+    "State": "Tamil Nadu",
+    "Country": "India",
+    "PhoneNumebr": "7654321098",
+    "EmailAddress": "support@gammasol.com",
+    "ContactPerson": "Vikram Sharma",
+    "Vat": 34567,
+    "GST": 78901,
+    "Tax": 5.0
+  },
+  {
+    "CustoemrId": "C004",
+    "CompanyName": "Delta Services",
+    "Address": "101 IT Park",
+    "City": "Pune",
+    "State": "Maharashtra",
+    "Country": "India",
+    "PhoneNumebr": "6543210987",
+    "EmailAddress": "sales@delta.in",
+    "ContactPerson": "Neha Reddy",
+    "Vat": 45678,
+    "GST": 89012,
+    "Tax": 28.0
+  },
+  {
+    "CustoemrId": "C005",
+    "CompanyName": "Epsilon Enterprises",
+    "Address": "12 Startup Lane",
+    "City": "Delhi",
+    "State": "Delhi",
+    "Country": "India",
+    "PhoneNumebr": "5432109876",
+    "EmailAddress": "hello@epsilon.com",
+    "ContactPerson": "Amitabh Joshi",
+    "Vat": 56789,
+    "GST": 90123,
+    "Tax": 0.0
+  }
+]
+
