@@ -21,6 +21,7 @@ class GenericViewModel<Service: AsyncDataServiceProtocol>{
             do{
                 let data = try await service.fetchData()
                 self.items = data
+                
                 completion(.success(data))
             }catch{
                 completion(.failure(error))
@@ -39,8 +40,8 @@ class GenericViewModel<Service: AsyncDataServiceProtocol>{
                 
                 
                 // Save updated data
-                let savedData =    try  await service.saveData(self.items)
-                self.items = savedData
+                let savedData =    try  await service.saveData(data)
+                
                 // Call completion with updated items
                 completion(savedData, nil)
             } catch {

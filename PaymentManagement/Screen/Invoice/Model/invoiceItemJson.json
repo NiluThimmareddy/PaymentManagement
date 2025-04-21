@@ -1,7 +1,156 @@
-//
-//  InvoiceJson.swift
-//  PaymentManagement
-//
-//  Created by ToqSoft on 21/04/25.
-//
-
+[
+  {
+    "partitionKey": "InvoiceItems",
+    "rowKey": "1a726a36-710f-42dc-b1a0-c3b3da0b07a5",
+    "timestamp": "2025-04-15T06:10:02.7460475+00:00",
+    "eTag": "W/\"datetime'2025-04-15T06%3A10%3A02.7460475Z'\"",
+    "itemId": "1a726a36-710f-42dc-b1a0-c3b3da0b07a5",
+    "invoiceNumber": 1001,
+    "itemDetails": "Mouse",
+    "itemDescription": "Mouse",
+    "quantity": 10,
+    "price": 10,
+    "tax": 10,
+    "total": 110
+  },
+  {
+    "partitionKey": "InvoiceItems",
+    "rowKey": "1da4a6b7-40fa-421a-bbe5-60ff20b50270",
+    "timestamp": "2025-04-16T10:27:02.5414606+00:00",
+    "eTag": "W/\"datetime'2025-04-16T10%3A27%3A02.5414606Z'\"",
+    "itemId": "1da4a6b7-40fa-421a-bbe5-60ff20b50270",
+    "invoiceNumber": 1007,
+    "itemDetails": "Mobile",
+    "itemDescription": "12GB ram",
+    "quantity": 2,
+    "price": 50000,
+    "tax": 500,
+    "total": 600000
+  },
+  {
+    "partitionKey": "InvoiceItems",
+    "rowKey": "1f14ecdd-f7c8-4963-a9ce-9566d8206cfd",
+    "timestamp": "2025-04-15T12:42:10.8380376+00:00",
+    "eTag": "W/\"datetime'2025-04-15T12%3A42%3A10.8380376Z'\"",
+    "itemId": "1f14ecdd-f7c8-4963-a9ce-9566d8206cfd",
+    "invoiceNumber": 1006,
+    "itemDetails": "desk",
+    "itemDescription": "desk",
+    "quantity": 3,
+    "price": 34,
+    "tax": 33,
+    "total": 135.66
+  },
+  {
+    "partitionKey": "InvoiceItems",
+    "rowKey": "3074e90a-02f2-4a72-aaba-d920c684c8d0",
+    "timestamp": "2025-04-15T07:10:11.7200389+00:00",
+    "eTag": "W/\"datetime'2025-04-15T07%3A10%3A11.7200389Z'\"",
+    "itemId": "3074e90a-02f2-4a72-aaba-d920c684c8d0",
+    "invoiceNumber": 1004,
+    "itemDetails": "demo",
+    "itemDescription": "sample",
+    "quantity": 3,
+    "price": 43,
+    "tax": 10,
+    "total": 141.9
+  },
+  {
+    "partitionKey": "InvoiceItems",
+    "rowKey": "559918fe-7fcb-4539-ae8a-875c4ff20cc5",
+    "timestamp": "2025-04-15T08:33:38.7917243+00:00",
+    "eTag": "W/\"datetime'2025-04-15T08%3A33%3A38.7917243Z'\"",
+    "itemId": "559918fe-7fcb-4539-ae8a-875c4ff20cc5",
+    "invoiceNumber": 1005,
+    "itemDetails": "fdg",
+    "itemDescription": "sfdg",
+    "quantity": 4,
+    "price": 45,
+    "tax": 3,
+    "total": 185.4
+  },
+  {
+    "partitionKey": "InvoiceItems",
+    "rowKey": "5b435a9c-de3f-4af9-aa20-d87f53fc12e6",
+    "timestamp": "2025-04-15T06:15:15.5718636+00:00",
+    "eTag": "W/\"datetime'2025-04-15T06%3A15%3A15.5718636Z'\"",
+    "itemId": "5b435a9c-de3f-4af9-aa20-d87f53fc12e6",
+    "invoiceNumber": 1002,
+    "itemDetails": "Laptop",
+    "itemDescription": "Laptop",
+    "quantity": 10,
+    "price": 10,
+    "tax": 10,
+    "total": 110
+  },
+  {
+    "partitionKey": "InvoiceItems",
+    "rowKey": "9d835d3e-4321-491c-bbe3-d62c1255c13e",
+    "timestamp": "2025-04-17T08:08:33.3995555+00:00",
+    "eTag": "W/\"datetime'2025-04-17T08%3A08%3A33.3995555Z'\"",
+    "itemId": "9d835d3e-4321-491c-bbe3-d62c1255c13e",
+    "invoiceNumber": 1008,
+    "itemDetails": "shoe",
+    "itemDescription": "puma",
+    "quantity": 1,
+    "price": 2000,
+    "tax": 10,
+    "total": 2200
+  },
+  {
+    "partitionKey": "InvoiceItems",
+    "rowKey": "d61a9153-50a3-426e-9b0a-df87db0a1a8a",
+    "timestamp": "2025-04-17T08:08:37.6351551+00:00",
+    "eTag": "W/\"datetime'2025-04-17T08%3A08%3A37.6351551Z'\"",
+    "itemId": "d61a9153-50a3-426e-9b0a-df87db0a1a8a",
+    "invoiceNumber": 1008,
+    "itemDetails": "airbuds",
+    "itemDescription": "noise",
+    "quantity": 2,
+    "price": 1000,
+    "tax": 10,
+    "total": 2200
+  },
+  {
+    "partitionKey": "InvoiceItems",
+    "rowKey": "e6f23df0-109d-478c-8203-3788a767561d",
+    "timestamp": "2025-04-15T07:11:02.6791111+00:00",
+    "eTag": "W/\"datetime'2025-04-15T07%3A11%3A02.6791111Z'\"",
+    "itemId": "e6f23df0-109d-478c-8203-3788a767561d",
+    "invoiceNumber": 1004,
+    "itemDetails": "demoone",
+    "itemDescription": "sampletwo",
+    "quantity": 4,
+    "price": 50,
+    "tax": 10,
+    "total": 220
+  },
+  {
+    "partitionKey": "InvoiceItems",
+    "rowKey": "e9ad216c-b240-4f28-92df-04728c76c9d7",
+    "timestamp": "2025-04-17T08:08:27.1750827+00:00",
+    "eTag": "W/\"datetime'2025-04-17T08%3A08%3A27.1750827Z'\"",
+    "itemId": "e9ad216c-b240-4f28-92df-04728c76c9d7",
+    "invoiceNumber": 1008,
+    "itemDetails": "sunglass",
+    "itemDescription": "fastrack",
+    "quantity": 2,
+    "price": 500,
+    "tax": 10,
+    "total": 1100
+  },
+  {
+    "partitionKey": "InvoiceItems",
+    "rowKey": "f072ea07-c77c-4bcb-bc3f-7654dda978d5",
+    "timestamp": "2025-04-15T06:34:24.5274623+00:00",
+    "eTag": "W/\"datetime'2025-04-15T06%3A34%3A24.5274623Z'\"",
+    "itemId": "f072ea07-c77c-4bcb-bc3f-7654dda978d5",
+    "invoiceNumber": 1003,
+    "itemDetails": "demo",
+    "itemDescription": "sample",
+    "quantity": 3,
+    "price": 34,
+    "tax": 10,
+    "total": 112.2
+  }
+]

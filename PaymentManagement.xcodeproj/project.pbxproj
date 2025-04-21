@@ -15,16 +15,28 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				Screen/Invoice/Model/invoiceItemJson.json,
 			);
 			target = B588134C2DB2208A008051DA /* PaymentManagement */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		B50E1FCC2DB6343000E23BFD /* Exceptions for "PaymentManagement" folder in "Compile Sources" phase from "PaymentManagement" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = B58813492DB2208A008051DA /* Sources */;
+			membershipExceptions = (
+				Screen/Invoice/Model/invoiceItemJson.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B588134F2DB2208A008051DA /* PaymentManagement */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				B588135F2DB2208C008051DA /* Exceptions for "PaymentManagement" folder in "PaymentManagement" target */,
+				B50E1FCC2DB6343000E23BFD /* Exceptions for "PaymentManagement" folder in "Compile Sources" phase from "PaymentManagement" target */,
 			);
 			path = PaymentManagement;
 			sourceTree = "<group>";

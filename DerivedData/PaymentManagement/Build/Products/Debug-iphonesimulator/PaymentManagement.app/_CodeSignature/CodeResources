@@ -42,11 +42,15 @@
 		</data>
 		<key>Customer.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		I2VdNHTwFKnPS2JIcHpMZ6wvbTU=
+		PehS/g94FuK5j3zO2IBXEammD3w=
 		</data>
 		<key>CustomerJsonData.json</key>
 		<data>
-		O9YzWRf1LSQ0sPlS5ruB8339780=
+		/sWvP+PZI+BH07+TpficxX3okGk=
+		</data>
+		<key>CustomerTableViewCell.nib</key>
+		<data>
+		FM45wFhpUbBmqxxhxGTE1GFldX0=
 		</data>
 		<key>Dashboard.storyboardc/DashboardViewController.nib</key>
 		<data>
@@ -62,7 +66,7 @@
 		</data>
 		<key>Dashboard.storyboardc/UINavigationController-DRo-bv-5pO.nib</key>
 		<data>
-		KjgwhxUBI6lxf1MdEeiNUIlIVH8=
+		88RT51KSvk7OaXUKJBM0jvs4Dc4=
 		</data>
 		<key>Dashboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
@@ -90,7 +94,7 @@
 		</data>
 		<key>PaymentManagement.debug.dylib</key>
 		<data>
-		x5xIhx+PF40kjp86l9gF5MbvMGM=
+		muLy0XmDva8CAwo1Szh3JpTwxSs=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -99,6 +103,10 @@
 		<key>__preview.dylib</key>
 		<data>
 		fVPqlvjyJr82Q8AXzbGCcxXlY90=
+		</data>
+		<key>invoiceHeader.json</key>
+		<data>
+		WTeFVDKSRLIXpmc6Eqq/VXl3w1M=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -170,14 +178,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RIgR+Buox+mCnZEK3cO1kU9AfMXgss7GgSK32tiX15g=
+			lnLhazKR1b1r1kZVKHHa5QDp4qbAxvRBbKg6gGE7jZM=
 			</data>
 		</dict>
 		<key>CustomerJsonData.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nTDAGCduI//RcZMKgt9q9N6z14l3T2rnYoBclovb1T4=
+			f3DmSOPNNHoWKt0bbPEKSPRdcPCXeq4GzlA5/aUxe6k=
+			</data>
+		</dict>
+		<key>CustomerTableViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9FX46qWO2NilDiHpWBEIWZBCCWYI+ChKUQn5qw3fSJk=
 			</data>
 		</dict>
 		<key>Dashboard.storyboardc/DashboardViewController.nib</key>
@@ -205,7 +220,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zExcsIMLNB8oTsvF3J75y5t81bwt1l2DwFfdS6s/aOk=
+			ZNo01xaSCJbPjRX7kCUvXiYZzGsrtZSzn423/+Mtewc=
 			</data>
 		</dict>
 		<key>Dashboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
@@ -247,7 +262,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N9V1z5GVXk0Jr4dYiZz3kwxcv7stXeOIdPmTH1YSWwM=
+			Y4FDw6evRHd6SH7LOPsRSiaBkjRIorUeK+bjgoW64bA=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>
@@ -255,6 +270,13 @@
 			<key>hash2</key>
 			<data>
 			q5YkmoKnp0cSsxGH1dOGzS8Jweb5GYUqZENng655JN0=
+			</data>
+		</dict>
+		<key>invoiceHeader.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Gj961khEawIqpUKn0CCZKWk92INho3y9Z2dE3RetARk=
 			</data>
 		</dict>
 	</dict>

@@ -22,6 +22,9 @@ class LeftMenuViewController: UIViewController {
         
         let storyboard = UIStoryboard(name: "Customer", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "CustomerViewController") as? CustomerViewController ?? UIViewController()
+        controller.title = "Customer List"
+        controller.navigationItem.backBarButtonItem?.title = ""
+        
         self.show(controller, sender: self)
     }
     

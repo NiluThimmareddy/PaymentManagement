@@ -316,22 +316,38 @@ SWIFT_CLASS("_TtC17PaymentManagement11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITextView;
+@class UILabel;
 @class NSString;
-@class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC17PaymentManagement22CustomerViewController")
-@interface CustomerViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified customerListLabel;
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC17PaymentManagement21CustomerTableViewCell")
+@interface CustomerTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified companyNameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified companyAddressLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified companyCityLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified companyStateLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified companyPhoneNumberLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified companyEmailIdLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified companyContactPersonLabel;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UITableView;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC17PaymentManagement22CustomerViewController")
+@interface CustomerViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified customerTableView;
+- (void)viewDidLoad;
+- (void)NavigateToaddNewCustomer;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSIndexPath;
-@class UITableViewCell;
 
 @interface CustomerViewController (SWIFT_EXTENSION(PaymentManagement)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;

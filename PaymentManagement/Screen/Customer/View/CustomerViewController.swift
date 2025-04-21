@@ -9,24 +9,38 @@ import UIKit
 
 class CustomerViewController: UIViewController {
 
-    @IBOutlet weak var customerListLabel: UITextView!
     
-    let CustomerTableView = UITableView()
+    @IBOutlet weak var customerTableView: UITableView!
+    
     private let customerVM = CustomerViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        addNewCustomer()
         fetchCustomerData()
-       addNewCustomer()
+      
 //        updateCustomer()
       //  deleteCustomer()
+        setupAddCustomerButton()
+        setupTableView()
+    }
+    
+  func setupAddCustomerButton(){
+      navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(NavigateToaddNewCustomer))
+      
+    }
+    
+    @objc func NavigateToaddNewCustomer(){
+        //Code For open Add Customer Form
+        
     }
     
     func setupTableView(){
-        CustomerTableView.delegate = self
-        CustomerTableView.dataSource = self
+        customerTableView.delegate = self
+        customerTableView.dataSource = self
         
+        let nib = UINib(nibName: "CustomerTableViewCell", bundle: nil)
+        customerTableView.register(nib, forCellReuseIdentifier: "CustomerTableViewCell")
     }
     
     func fetchCustomerData(){
@@ -36,7 +50,8 @@ class CustomerViewController: UIViewController {
                     switch result {
                     case .success(let customer):
 //                        self?.customerListLabel.text = customer.description
-                        self?.CustomerTableView.reloadData()
+                        print(customer)
+                        self?.customerTableView.reloadData()
                 case .failure(let error ) :
                     print("Error: \(error)")
                 }
@@ -47,18 +62,14 @@ class CustomerViewController: UIViewController {
     
     func addNewCustomer(){
         Task{
-            let newCustomer = Customer(CustoemrId: "C006", CompanyName: "Testing", Address: "AddressTest", City: "Citytest", State: "StateTest", Country: "Cntry", PhoneNumebr: "rter", EmailAddress: "rtertr@gmail.com", ContactPerson: "dsd", Vat: 10, GST: 10, Tax: 2.5)
-            
-            customerVM.addCustomer( newCustomer, completion: { [weak self] customerarray, error in
+            customerVM.addCustomer(customerVM.newCustomer, completion: { [weak self] customerarray, error in
                 if let error = error{
                     print("Failed to add: \(error)")
                 }else if let customerarray = customerarray {
-                /*    DispatchQueue.main.async {
-                          self?.CustomerTableView.reloadData()
+                   DispatchQueue.main.async {
+                          self?.customerTableView.reloadData()
                     }
-                 */
-                    
-                    
+                 
                     print("Succcessfully added. Totla Count \(String(describing: customerarray.count)) \n \(customerarray)")
                 }
             })
@@ -67,16 +78,16 @@ class CustomerViewController: UIViewController {
     
     
     func updateCustomer(){
-            let updateCustomer = Customer(CustoemrId: "C005", CompanyName: "Testing", Address: "AddressTestupdate", City: "Citytest", State: "StateTest", Country: "Cntryupdate", PhoneNumebr: "rter", EmailAddress: "rtertr@gmail.com", ContactPerson: "dsd", Vat: 10, GST: 10, Tax: 2.5)
+            
              
-        customerVM.updateCustomer(updateCustomer, completion: { [weak self] customerarray, error in
+        customerVM.updateCustomer(customerVM.updateCustomer, completion: { [weak self] customerarray, error in
                 if let error = error{
                     print("Failed to update: \(error)")
                 }else if let list = customerarray{
-                    /*    DispatchQueue.main.async {
-                              self?.CustomerTableView.reloadData()
+                        DispatchQueue.main.async {
+                              self?.customerTableView.reloadData()
                         }
-                     */
+                     
                     print("Succcessfully Customer updated :  \n \(list)")
                 }
             })
@@ -85,16 +96,16 @@ class CustomerViewController: UIViewController {
     
     
     func deleteCustomer(){
-            let CustomerToDelete = Customer(CustoemrId: "C006", CompanyName: "Testing", Address: "AddressTest", City: "Citytest", State: "StateTest", Country: "Cntry", PhoneNumebr: "rter", EmailAddress: "rtertr@gmail.com", ContactPerson: "dsd", Vat: 10, GST: 10, Tax: 2.5)
+           
    
-        customerVM.deleteCustomer(CustomerToDelete) { [weak self] custoemrArray, error in
+        customerVM.deleteCustomer(customerVM.CustomerToDelete) { [weak self] custoemrArray, error in
                 if let error = error{
                     print("Failed to delete Customer: \(error)")
                 }else if let list = custoemrArray{
-                    /*    DispatchQueue.main.async {
-                              self?.CustomerTableView.reloadData()
+                       DispatchQueue.main.async {
+                              self?.customerTableView.reloadData()
                         }
-                     */
+                     
                     print("Succcessfully Customer updeleteddated :  \n \(list)")
                 }
             }
@@ -113,7 +124,10 @@ extension CustomerViewController : UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = CustomerTableView.dequeueReusableCell(withIdentifier: "cell")!
+        let cell = customerTableView.dequeueReusableCell(withIdentifier: "CustomerTableViewCell") as! CustomerTableViewCell
+        
+        cell.setupData(customerData: customerVM.customers[indexPath.row])
+        
         return cell
         
     }
