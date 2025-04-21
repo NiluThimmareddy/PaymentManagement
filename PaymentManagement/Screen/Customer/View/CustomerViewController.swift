@@ -35,8 +35,8 @@ class CustomerViewController: UIViewController {
                 DispatchQueue.main.async {
                     switch result {
                     case .success(let customer):
-                        self?.customerListLabel.text = customer.description
-                       // CustomerTableView.reloadData
+//                        self?.customerListLabel.text = customer.description
+                        self?.CustomerTableView.reloadData()
                 case .failure(let error ) :
                     print("Error: \(error)")
                 }
