@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "890CE705C4797E770FD68138BC0B30867DF2EADE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "890CE705C4797E770FD68138BC0B30867DF2EADE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7A270048-3705-46C2-95FD-E9262C0EC0C3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "890CE705C4797E770FD68138BC0B30867DF2EADE" : "PaymentManagement\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PaymentManagement",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PaymentManagement.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NiluThimmareddy\/PaymentManagement.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "890CE705C4797E770FD68138BC0B30867DF2EADE"
+    }
+  ]
+}

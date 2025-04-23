@@ -10,6 +10,7 @@ import UIKit
 class CustomerViewController: UIViewController {
 
     
+    @IBOutlet weak var customerScrollview: UIScrollView!
     @IBOutlet weak var customerTableView: UITableView!
     
     private let customerVM = CustomerViewModel()
@@ -23,6 +24,12 @@ class CustomerViewController: UIViewController {
       //  deleteCustomer()
         setupAddCustomerButton()
         setupTableView()
+        setScrollViewBorder()
+    }
+    
+    func setScrollViewBorder(){
+        customerScrollview.layer.borderWidth = 1.0
+        customerScrollview.layer.borderColor = UIColor.placeholderText.cgColor
     }
     
   func setupAddCustomerButton(){
@@ -32,7 +39,9 @@ class CustomerViewController: UIViewController {
     
     @objc func NavigateToaddNewCustomer(){
         //Code For open Add Customer Form
-        
+        let controller = storyboard?.instantiateViewController(withIdentifier: "AddNewCustomerViewController") as!
+     AddNewCustomerViewController
+        self.present(controller, animated: true)
     }
     
     func setupTableView(){

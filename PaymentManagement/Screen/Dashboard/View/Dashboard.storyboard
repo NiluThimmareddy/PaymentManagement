@@ -73,9 +73,6 @@
                             <barButtonItem title="Item" image="bell.fill" catalog="system" id="vRB-sh-X9u">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </barButtonItem>
-                            <barButtonItem title="Item" image="moon" catalog="system" id="40F-8I-DFl">
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </barButtonItem>
                             <barButtonItem title="Item" image="magnifyingglass" catalog="system" id="fD0-Bb-Q5O">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </barButtonItem>
@@ -151,7 +148,6 @@
         <image name="bell.fill" catalog="system" width="123" height="128"/>
         <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
-        <image name="moon" catalog="system" width="128" height="123"/>
         <namedColor name="MainColor">
             <color red="0.075000002980232239" green="0.15700000524520874" blue="0.2630000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

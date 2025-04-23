@@ -32,17 +32,25 @@
 		<data>
 		IX0Pxzmz7uiLuoQSNrNCHBbf2D8=
 		</data>
+		<key>Customer.storyboardc/AddNewCustomerViewController.nib</key>
+		<data>
+		e+ytrIf90uXPgyPXA/PeQxXN9+o=
+		</data>
 		<key>Customer.storyboardc/CustomerViewController.nib</key>
 		<data>
 		2+w67JR5GCFxHvTHfdASvrhAUqE=
 		</data>
 		<key>Customer.storyboardc/Info.plist</key>
 		<data>
-		c1psuE7tKqaP/mCoKfcoYBYMX0Q=
+		CQIBIe12oKDs/Et1JrwE4Ab20R0=
 		</data>
 		<key>Customer.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		PehS/g94FuK5j3zO2IBXEammD3w=
+		sqoxXcEDB/o/elYOYR8nM9QaOQ4=
+		</data>
+		<key>Customer.storyboardc/aCH-2B-RFE-view-vB8-rm-TD4.nib</key>
+		<data>
+		yYrIr3RhMHXK6Tb3+hJMvW1cAjA=
 		</data>
 		<key>CustomerJsonData.json</key>
 		<data>
@@ -50,11 +58,11 @@
 		</data>
 		<key>CustomerTableViewCell.nib</key>
 		<data>
-		FM45wFhpUbBmqxxhxGTE1GFldX0=
+		Gg5iH+C4qwK8SOazLGkUvbn1BEc=
 		</data>
 		<key>Dashboard.storyboardc/DashboardViewController.nib</key>
 		<data>
-		f8LwBAnbw86rwLsGRWyZFFUZlX0=
+		dqqOAomu3ewSfSYC1AJqNOSXcWg=
 		</data>
 		<key>Dashboard.storyboardc/Info.plist</key>
 		<data>
@@ -66,7 +74,7 @@
 		</data>
 		<key>Dashboard.storyboardc/UINavigationController-DRo-bv-5pO.nib</key>
 		<data>
-		88RT51KSvk7OaXUKJBM0jvs4Dc4=
+		qSiusoITvYOe+74C2ens3fszEdE=
 		</data>
 		<key>Dashboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
@@ -94,7 +102,7 @@
 		</data>
 		<key>PaymentManagement.debug.dylib</key>
 		<data>
-		muLy0XmDva8CAwo1Szh3JpTwxSs=
+		m9sJC+LzlAjtNi8JKSi+kIJTi0o=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -160,6 +168,13 @@
 			sOtspqPlG8ihApgBu0wV+6IyYalvb2noazc+xcmDu7g=
 			</data>
 		</dict>
+		<key>Customer.storyboardc/AddNewCustomerViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0ofozi68KEKp1JE8S91TiHyOuGjy69a7Ry64gE4Ywnk=
+			</data>
+		</dict>
 		<key>Customer.storyboardc/CustomerViewController.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -171,14 +186,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GsKeYPB2RNO1JFLr/Wx31CfWp6YOmKV+iHOustQT/3g=
+			w65UOa94CGnDC44f9J3cEyhElIylkLOW6vCs9WQUN+Q=
 			</data>
 		</dict>
 		<key>Customer.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lnLhazKR1b1r1kZVKHHa5QDp4qbAxvRBbKg6gGE7jZM=
+			Z9laORyBulAkY4U6IZ0nWjCHgftmKnCjPQEd3MVRrM0=
+			</data>
+		</dict>
+		<key>Customer.storyboardc/aCH-2B-RFE-view-vB8-rm-TD4.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sP0rmir/6JU2niykVFMH7VExESecH0m9uoYCKxxYGyY=
 			</data>
 		</dict>
 		<key>CustomerJsonData.json</key>
@@ -192,14 +214,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9FX46qWO2NilDiHpWBEIWZBCCWYI+ChKUQn5qw3fSJk=
+			8W7ZbiN0P6O2ZhVzLb2bZsmdFtSXX68/KsYx2gi4IBA=
 			</data>
 		</dict>
 		<key>Dashboard.storyboardc/DashboardViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q9RWua6rXf4rCYGA6iZEaauc2irBT9k3sm+qBhVkuEU=
+			pqIsCarcFeCmLmYLAU5EUJSPwzFfNImIvi7c1klFgTY=
 			</data>
 		</dict>
 		<key>Dashboard.storyboardc/Info.plist</key>
@@ -220,7 +242,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZNo01xaSCJbPjRX7kCUvXiYZzGsrtZSzn423/+Mtewc=
+			XK+trpC7wNs3qK3V+DhcbvTnsJT65+ScqFOPk+ke3g0=
 			</data>
 		</dict>
 		<key>Dashboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
@@ -262,7 +284,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y4FDw6evRHd6SH7LOPsRSiaBkjRIorUeK+bjgoW64bA=
+			ZFM8StehJNqBf+WifrgWfbpk50fyYyfW46UpayFXo9M=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>

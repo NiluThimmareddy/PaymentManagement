@@ -31,8 +31,7 @@ class CustomerTableViewCell: UITableViewCell {
     
     func setupData(customerData:Customer){
         let data = customerData
-        
-        
+  
         self.companyNameLabel.text = data.companyName
         self.companyAddressLabel.text = data.address
         self.companyCityLabel.text = data.city

@@ -301,6 +301,35 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class UIScrollView;
+@class UILabel;
+@class UITextField;
+@class UIButton;
+@class NSString;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC17PaymentManagement28AddNewCustomerViewController")
+@interface AddNewCustomerViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified AddCustomerscrollview;
+@property (nonatomic, copy) IBOutletCollection(UILabel) NSArray<UILabel *> * _Null_unspecified ValidationLabelColletions;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified companyNameTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified emailIDTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified addressTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified countryTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified cityTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified stateTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified phoneNumberTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified contactPersoneNameTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified VATTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified GSTNameTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified TAXNameTextField;
+- (void)viewDidLoad;
+- (IBAction)submitButtonAction:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIApplication;
 @class UISceneSession;
 @class UISceneConnectionOptions;
@@ -314,9 +343,6 @@ SWIFT_CLASS("_TtC17PaymentManagement11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
-@class NSString;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC17PaymentManagement21CustomerTableViewCell")
 @interface CustomerTableViewCell : UITableViewCell
@@ -334,10 +360,10 @@ SWIFT_CLASS("_TtC17PaymentManagement21CustomerTableViewCell")
 @end
 
 @class UITableView;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC17PaymentManagement22CustomerViewController")
 @interface CustomerViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified customerScrollview;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified customerTableView;
 - (void)viewDidLoad;
 - (void)NavigateToaddNewCustomer;
@@ -368,7 +394,6 @@ SWIFT_CLASS("_TtC17PaymentManagement21InvoiceViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIButton;
 
 SWIFT_CLASS("_TtC17PaymentManagement22LeftMenuViewController")
 @interface LeftMenuViewController : UIViewController
