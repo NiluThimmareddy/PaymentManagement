@@ -28,7 +28,7 @@ class CustomerViewController: UIViewController {
     }
     
     func setScrollViewBorder(){
-        customerScrollview.layer.borderWidth = 1.0
+        customerScrollview.layer.borderWidth = 0.5
         customerScrollview.layer.borderColor = UIColor.placeholderText.cgColor
     }
     
@@ -41,6 +41,7 @@ class CustomerViewController: UIViewController {
         //Code For open Add Customer Form
         let controller = storyboard?.instantiateViewController(withIdentifier: "AddNewCustomerViewController") as!
      AddNewCustomerViewController
+        controller.modalPresentationStyle = .popover
         self.present(controller, animated: true)
     }
     
@@ -139,5 +140,9 @@ extension CustomerViewController : UITableViewDelegate, UITableViewDataSource{
         
         return cell
         
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 40
     }
 }

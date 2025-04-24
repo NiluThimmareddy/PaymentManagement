@@ -30,7 +30,7 @@ class AddNewCustomerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        AddCustomerscrollview.layer.borderWidth = 1
+        AddCustomerscrollview.layer.borderWidth = 0.5
         AddCustomerscrollview.layer.borderColor = UIColor.placeholderText.cgColor
         
 //        countryTextField.layer.borderWidth = 1
