@@ -20,8 +20,8 @@ class LeftMenuViewController: UIViewController {
     
     @IBAction func CustomersListButtonAction(_ sender: UIButton) {
         
-        let storyboard = UIStoryboard(name: "Customer", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "CustomerViewController") as? CustomerViewController ?? UIViewController()
+        let storyboard = UIStoryboard(name: "Invoice", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "InvoiceViewController") as? InvoiceViewController ?? UIViewController()
         controller.title = "Customer List"
         controller.navigationItem.backBarButtonItem?.title = ""
         
