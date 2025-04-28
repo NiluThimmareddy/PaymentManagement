@@ -390,12 +390,138 @@ SWIFT_CLASS("_TtC17PaymentManagement23DashboardViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIView;
 
-SWIFT_CLASS("_TtC17PaymentManagement21InvoiceViewController")
-@interface InvoiceViewController : UIViewController
+SWIFT_CLASS("_TtC17PaymentManagement17InvoiceDetailsTVC")
+@interface InvoiceDetailsTVC : UITableViewCell
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified itemDetailsTF;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified descriptionTF;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified qtyTF;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified priceTF;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified taxTF;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified totalTF;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified actionView;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified deleteButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified plusButton;
+- (void)awakeFromNib;
+- (IBAction)deleteButtonAction:(id _Nonnull)sender;
+- (IBAction)plusButtonAction:(id _Nonnull)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC17PaymentManagement18InvoicePaymentsTVC")
+@interface InvoicePaymentsTVC : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified backView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified invoiceNumberLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified transactionDateLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified amountLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified cardLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified customerNameLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified eyeButton;
+- (void)awakeFromNib;
+- (IBAction)eyeButtonAction:(id _Nonnull)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC17PaymentManagement17InvoicePaymentsVC")
+@interface InvoicePaymentsVC : UIViewController
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified backView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified topView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified transactionPeriodLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified filterButton;
+@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified insideScrollView;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified paymentListTableview;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified invoiceNumberLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified transactionLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified amountLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified cardLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified customerNameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified actionLabel;
 - (void)viewDidLoad;
+- (IBAction)filterButton:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface InvoicePaymentsVC (SWIFT_EXTENSION(PaymentManagement)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UISearchBar;
+@class NSLayoutConstraint;
+@class UIAction;
+
+SWIFT_CLASS("_TtC17PaymentManagement21InvoiceViewController")
+@interface InvoiceViewController : UIViewController <UIPopoverPresentationControllerDelegate>
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified createInvoiceTitleLabel;
+@property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified dotLineView;
+@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified backView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified streetLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified areaLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified distLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified countryLabel;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified invoiceNumberTF;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified invoiceDateTF;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified invoiceDateButton;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified dueDateTF;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified dueDateButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified paymentTermsButton;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified itemDetailsLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified descriptionLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified qtyLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified priceLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified taxLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified totalLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified actionLabel;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified itemDetailsTableView;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified subTotalTF;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified totalTaxTF;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified grandTotalTF;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified submitInvoiceButton;
+@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified tableScrollView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified scrollHeightConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified tableHeightConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified mainViewHeightConstraint;
+- (void)viewDidLoad;
+- (IBAction)invoiceDateButtonAction:(id _Nonnull)sender;
+- (IBAction)dueDateButtonAction:(id _Nonnull)sender;
+- (IBAction)paymentButtonAction:(UIAction * _Nonnull)sender;
+- (IBAction)submitButtonAction:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface InvoiceViewController (SWIFT_EXTENSION(PaymentManagement)) <UISearchBarDelegate>
+- (void)searchBarTextDidBeginEditing:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
+- (void)searchBarTextDidEndEditing:(UISearchBar * _Nonnull)searchBar;
+@end
+
+
+@interface InvoiceViewController (SWIFT_EXTENSION(PaymentManagement)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+@interface InvoiceViewController (SWIFT_EXTENSION(PaymentManagement))
+- (void)invoiceDateChanged;
+- (void)dueDateChanged;
+- (void)doneInvoiceDate;
+- (void)doneDueDate;
 @end
 
 

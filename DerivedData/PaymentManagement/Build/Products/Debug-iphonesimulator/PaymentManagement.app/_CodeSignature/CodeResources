@@ -50,7 +50,7 @@
 		</data>
 		<key>Customer.storyboardc/aCH-2B-RFE-view-vB8-rm-TD4.nib</key>
 		<data>
-		OshvunS6fgtdlV1wLHYY2FpMgng=
+		XoLeKRXer9un3rlSiF+nPLSVZ4U=
 		</data>
 		<key>CustomerJsonData.json</key>
 		<data>
@@ -88,21 +88,37 @@
 		<data>
 		4mhIImnfVTBi9p3GTpbyceXOi8w=
 		</data>
+		<key>Invoice.storyboardc/7aK-Sv-gyp-view-Ycn-7k-5Tn.nib</key>
+		<data>
+		pYKWOw/mdWKcL6Wnt6j5Kk8Q5oM=
+		</data>
 		<key>Invoice.storyboardc/Info.plist</key>
 		<data>
-		HH6fecZCRJtKViC891B9ipA+3RE=
+		cKm6zyi6WD8JXwem+8gwGe3klwk=
+		</data>
+		<key>Invoice.storyboardc/InvoicePaymentsVC.nib</key>
+		<data>
+		mw+LJBCCHIYmcVMyvZUFkKOWk70=
 		</data>
 		<key>Invoice.storyboardc/InvoiceViewController.nib</key>
 		<data>
-		poJaM124e28qzxwTUL3eOb4BPlU=
+		fE8jqK6Hsj75kp6qNhOBlSRx1GQ=
 		</data>
-		<key>Invoice.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<key>Invoice.storyboardc/VHK-Ub-7Es-view-XQG-Ud-lKP.nib</key>
 		<data>
-		WZXT9hOf8x2xP8U3xo/iiRqG7Gs=
+		0vj8zNKnM87rNlcyuQsrsLRBpVU=
+		</data>
+		<key>InvoiceDetailsTVC.nib</key>
+		<data>
+		cjfpI7RSDav7emHxzRFHA1ocqa4=
+		</data>
+		<key>InvoicePaymentsTVC.nib</key>
+		<data>
+		SIw2602OfyOH2LRBRoaBpuUdQrI=
 		</data>
 		<key>PaymentManagement.debug.dylib</key>
 		<data>
-		uL1JcxpCZJ0OFRSWgWET77NLV5s=
+		4jBlYyJ168Ct+OtAidmNo6aRN48=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -200,7 +216,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J2pDxjnmytcB+DTMSTu1JxByU94IHNjz5/06cg0E5rk=
+			VgsFrDMpRcAu7LxcJ1EjYMhHhRYUqnVE4KFDmqbKh/4=
 			</data>
 		</dict>
 		<key>CustomerJsonData.json</key>
@@ -259,32 +275,60 @@
 			166tj+2KvBECNFyZ6AqxxpZz/VsdxrfB5pzTqHJr2ZE=
 			</data>
 		</dict>
+		<key>Invoice.storyboardc/7aK-Sv-gyp-view-Ycn-7k-5Tn.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hBCEv/t4RPO8SjlGGVV/D4KgJYS2OAbx/aAWDmpy0d4=
+			</data>
+		</dict>
 		<key>Invoice.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bDEgcML/qIAthzVrAd+6/jCL/clwLuYX5sfdNkkM6yA=
+			bGrJ/wAHpIlUV9JFZCQ/ZwHLDaZ4o3+/95YSVkMx8Io=
+			</data>
+		</dict>
+		<key>Invoice.storyboardc/InvoicePaymentsVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MUGOgV6Ef1MRZv44VZUV93DYMWufXFkJ282aOAiFatw=
 			</data>
 		</dict>
 		<key>Invoice.storyboardc/InvoiceViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GX/xlXiNz+lJIp2cjYFSGfDHYa4pYZssPbg/fIBVyC4=
+			xVUMIUPbeiv/2dhSWus9Vzk6QahdIeHeiUabrzNgOzU=
 			</data>
 		</dict>
-		<key>Invoice.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<key>Invoice.storyboardc/VHK-Ub-7Es-view-XQG-Ud-lKP.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N2YnXnKGqSsrwUiTgOBO1e8ARv6qcP0ETBpegHzTJEs=
+			Brprfve9c0jOhJUbzA+RVXo54gb9noysVKwk7MJWq2s=
+			</data>
+		</dict>
+		<key>InvoiceDetailsTVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			16S0dDpudQQt+D10/PKLVabKPBdM7Im4EaYJJ7GzJiE=
+			</data>
+		</dict>
+		<key>InvoicePaymentsTVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			98x0AzxwKrjTHGHcJeZZm1KXCbKTrPAhXFKN/Q1Vlc4=
 			</data>
 		</dict>
 		<key>PaymentManagement.debug.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Qev1q08h+HKnJRIC7XdGOsK/VnrB2cTTvw2H+D6AYM=
+			xzjhNm3oPQ5Cs6T7OQpC69h6YE07V0psRfESRjxg2Nc=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>
