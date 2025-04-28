@@ -106,7 +106,7 @@ extension InvoiceViewController : UITableViewDelegate, UITableViewDataSource {
             cell.textLabel?.text = customer.companyName
             return cell
         } else {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "InvoiceDetailsTVC", for: indexPath) as! InvoiceDetailsTVC
+            let cell = tableView.dequeueReusableCell(withIdentifier: "InvoiceListTVC", for: indexPath) as! InvoiceListTVC
             let item = invoiceItems[indexPath.row]
             cell.didTapPlusButton = { [weak self] in
                 self?.handlePlusButtonTap()
@@ -138,7 +138,7 @@ extension InvoiceViewController : UITableViewDelegate, UITableViewDataSource {
 
 extension InvoiceViewController {
     func setUpUI() {
-        itemDetailsTableView.register(UINib(nibName: "InvoiceDetailsTVC", bundle: nil), forCellReuseIdentifier: "InvoiceDetailsTVC")
+        itemDetailsTableView.register(UINib(nibName: "InvoiceListTVC", bundle: nil), forCellReuseIdentifier: "InvoiceListTVC")
         
         backView.layoutIfNeeded()
         

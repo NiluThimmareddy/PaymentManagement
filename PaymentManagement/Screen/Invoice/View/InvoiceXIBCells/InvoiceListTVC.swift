@@ -7,7 +7,7 @@
 
 import UIKit
 
-class InvoiceDetailsTVC : UITableViewCell {
+class InvoiceListTVC : UITableViewCell {
     
     @IBOutlet weak var itemDetailsTF: UITextField!
     @IBOutlet weak var descriptionTF: UITextField!

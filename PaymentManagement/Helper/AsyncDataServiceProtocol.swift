@@ -16,3 +16,6 @@ protocol AsyncDataServiceProtocol {
     func deleteData(_ itemToDelete: T) async throws -> [T]
     
 }
+protocol InvoiceScrollSyncDelegate: AnyObject {
+    func didScroll(contentOffset: CGPoint)
+}
