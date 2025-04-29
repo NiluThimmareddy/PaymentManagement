@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		GEI58pz3vpM4ogDDDto+nJrwj4o=
+		ZfbjpwyhQgDTp7lm86ZA/LpcC3U=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -34,23 +34,23 @@
 		</data>
 		<key>Customer.storyboardc/AddNewCustomerViewController.nib</key>
 		<data>
-		e+ytrIf90uXPgyPXA/PeQxXN9+o=
+		5hAILvtOVTj3mb6tKlwnm+Rz/b4=
 		</data>
 		<key>Customer.storyboardc/CustomerViewController.nib</key>
 		<data>
-		2+w67JR5GCFxHvTHfdASvrhAUqE=
+		pRanfezIZJac/JvklciqvM4FB98=
 		</data>
 		<key>Customer.storyboardc/Info.plist</key>
 		<data>
-		CQIBIe12oKDs/Et1JrwE4Ab20R0=
+		F/c1hxpi0VzkHpOtcBaFTIxF9pc=
 		</data>
-		<key>Customer.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<key>Customer.storyboardc/QhV-ch-6o2-view-EWq-pU-2Ne.nib</key>
 		<data>
-		U5zbCqvpEDBX9Ew5msKVqmxoqi8=
+		nHgfGmoBEsMs9vlLTacfCiLBerM=
 		</data>
-		<key>Customer.storyboardc/aCH-2B-RFE-view-vB8-rm-TD4.nib</key>
+		<key>Customer.storyboardc/XcH-hg-r95-view-fIG-wp-QfQ.nib</key>
 		<data>
-		XoLeKRXer9un3rlSiF+nPLSVZ4U=
+		sN/DTG5tFBN3q2//bVPXODwcPj4=
 		</data>
 		<key>CustomerJsonData.json</key>
 		<data>
@@ -62,27 +62,27 @@
 		</data>
 		<key>Dashboard.storyboardc/DashboardViewController.nib</key>
 		<data>
-		dqqOAomu3ewSfSYC1AJqNOSXcWg=
+		13Sdyl1/QuIC1/spS4y65DhwuUk=
+		</data>
+		<key>Dashboard.storyboardc/GSW-H6-sr8-view-Dwa-LV-KdX.nib</key>
+		<data>
+		Lm3YIuJC+pfSImtzLBbOf7OoD98=
 		</data>
 		<key>Dashboard.storyboardc/Info.plist</key>
 		<data>
-		UxGT7mGLaNfIWsdIMOOMnWHVTe8=
+		r6s1IS33MgXrP8C5j6wpdyRjql8=
 		</data>
 		<key>Dashboard.storyboardc/LeftMenuViewController.nib</key>
 		<data>
-		wmjpC8T1ecrTJ4pUpdgF8AM1jYs=
+		NVQfOwtB95bMZEHMs7C01f20/To=
 		</data>
 		<key>Dashboard.storyboardc/UINavigationController-DRo-bv-5pO.nib</key>
 		<data>
-		qSiusoITvYOe+74C2ens3fszEdE=
+		y3zlVbedacoTJR48QEbJUqcFLOo=
 		</data>
 		<key>Dashboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		NBJSl39cjEaG/FhyM//OvydrHBw=
-		</data>
-		<key>Dashboard.storyboardc/sFb-qk-FqF-view-Cp3-d4-x92.nib</key>
-		<data>
-		ogonyaE0hQLI36YHGnF9qtvY9oA=
+		RfkwgM4bg7t9q5iw7fvbE8UyE1M=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -90,43 +90,111 @@
 		</data>
 		<key>Invoice.storyboardc/7aK-Sv-gyp-view-Ycn-7k-5Tn.nib</key>
 		<data>
-		pYKWOw/mdWKcL6Wnt6j5Kk8Q5oM=
+		hB5frx4kYK7NL4GFwfEdVfgnoYk=
 		</data>
 		<key>Invoice.storyboardc/Info.plist</key>
 		<data>
-		cKm6zyi6WD8JXwem+8gwGe3klwk=
+		7ZShpLtBku60jqzu2OfiTv5x5DI=
+		</data>
+		<key>Invoice.storyboardc/InvoiceDetailsViewController.nib</key>
+		<data>
+		ZKMhS7rgefl8uJ0I0+kGLA+zOMU=
 		</data>
 		<key>Invoice.storyboardc/InvoicePaymentsVC.nib</key>
 		<data>
-		mw+LJBCCHIYmcVMyvZUFkKOWk70=
+		tURPY7aBjMY3Vjw9A7WIthX6YoE=
 		</data>
 		<key>Invoice.storyboardc/InvoiceViewController.nib</key>
 		<data>
-		fE8jqK6Hsj75kp6qNhOBlSRx1GQ=
+		U7vx3m1pyRqiQXqxeLkyjyUA6Cw=
 		</data>
 		<key>Invoice.storyboardc/VHK-Ub-7Es-view-XQG-Ud-lKP.nib</key>
 		<data>
-		0vj8zNKnM87rNlcyuQsrsLRBpVU=
+		msIhpK1cHQxfiYZa/FCVNapSZTc=
 		</data>
-		<key>InvoiceDetailsTVC.nib</key>
+		<key>Invoice.storyboardc/pfw-da-Mv5-view-08e-c7-psG.nib</key>
 		<data>
-		cjfpI7RSDav7emHxzRFHA1ocqa4=
+		kLVMWkls3aBbx4bXXwATGA9Ybv0=
+		</data>
+		<key>InvoiceListTVC.nib</key>
+		<data>
+		H7iQWs/4MpWLzg9TyOL0VMWkdWM=
 		</data>
 		<key>InvoicePaymentsTVC.nib</key>
 		<data>
 		SIw2602OfyOH2LRBRoaBpuUdQrI=
 		</data>
+		<key>LeftMenuSubDataTVC.nib</key>
+		<data>
+		Aax6wa/66PV/JthAJjeyKAwFeVo=
+		</data>
+		<key>LeftMenuTVC.nib</key>
+		<data>
+		ScTtCXMvYW3gJ5gBsRCe9KD8ces=
+		</data>
 		<key>PaymentManagement.debug.dylib</key>
 		<data>
-		4jBlYyJ168Ct+OtAidmNo6aRN48=
+		PF8EvoaL+vLjetYi82Np4U3iDrY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>Tax.storyboardc/5Dx-yn-fGC-view-q8k-7b-CVe.nib</key>
+		<data>
+		dkC1svj2czkG7VR20tV205owNUk=
+		</data>
+		<key>Tax.storyboardc/AddNewTaxViewController.nib</key>
+		<data>
+		w21bC6UJMQ5jwSPoyP1FNhjTYEs=
+		</data>
+		<key>Tax.storyboardc/Info.plist</key>
+		<data>
+		RveS9TKv6CY5jDqL9KB27haJnWQ=
+		</data>
+		<key>Tax.storyboardc/TaxViewController.nib</key>
+		<data>
+		auQPvCpZ21mco1GrD70a09RlYrI=
+		</data>
+		<key>Tax.storyboardc/UpdateTaxViewController.nib</key>
+		<data>
+		FKtHNtbAexBVhsDx3MkAxNCZ/TQ=
+		</data>
+		<key>Tax.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<data>
+		aj+oZP4Ljycq21R8rPtD6Fr8WtQ=
+		</data>
+		<key>Tax.storyboardc/jld-vT-ier-view-Tw5-pp-KXe.nib</key>
+		<data>
+		/mshO5tjS7aURch49IpGRlR7M4w=
+		</data>
+		<key>TaxHeaderView.nib</key>
+		<data>
+		yOArUJO+HmvTTy8ANpuAy44D/b4=
+		</data>
+		<key>TaxListTVC.nib</key>
+		<data>
+		G5u3SPFrZb9+xvRH5QZgQFHyEc4=
+		</data>
+		<key>TaxModel.momd/TaxModel.mom</key>
+		<data>
+		PAkIGiA6ccSHmnEVkE2Egr9dhEg=
+		</data>
+		<key>TaxModel.momd/VersionInfo.plist</key>
+		<data>
+		nchjdbPFfeGf7iIb+LMSRNqe4tU=
+		</data>
 		<key>__preview.dylib</key>
 		<data>
 		fVPqlvjyJr82Q8AXzbGCcxXlY90=
+		</data>
+		<key>invoiceDetailsHeaderView.nib</key>
+		<data>
+		nlAP5Oxr3ElBxG1WuMLYTA0VNdM=
+		</data>
+		<key>invoiceDetailsTVC.nib</key>
+		<data>
+		bzIJQyWKfOqok/qHgiDSjZjL1IQ=
 		</data>
 		<key>invoiceHeader.json</key>
 		<data>
@@ -139,7 +207,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CPwCOtLo4et/eRddd8X8TIL+LUfrivfxKrtxRexE9pE=
+			KgHkI/HO7pGcaPULlS6kImZS+aD1HsMqbcruoU9FvEA=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -188,35 +256,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0ofozi68KEKp1JE8S91TiHyOuGjy69a7Ry64gE4Ywnk=
+			Fg7i+gDISUilQtmvAlIwrkhGopBF2xmMSnA3xtzHiyk=
 			</data>
 		</dict>
 		<key>Customer.storyboardc/CustomerViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7tFZXL2/8FJgJEKcT4FJCGuzW/6w6kg8P9IdpnfbI6M=
+			YOqWejTQe6X02gmUtXItIfslYmbUyjmm7qVS+5FxSQc=
 			</data>
 		</dict>
 		<key>Customer.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w65UOa94CGnDC44f9J3cEyhElIylkLOW6vCs9WQUN+Q=
+			VDYuZkNYyjQUWwwPa4lXdSqBwjaMkfhMGSvYK8HS6mE=
 			</data>
 		</dict>
-		<key>Customer.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<key>Customer.storyboardc/QhV-ch-6o2-view-EWq-pU-2Ne.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z4t9UADUg4RbX1hCa/tKYqAqxfOFnX+mGBWceJMb3CA=
+			7jlZ5OxBEcZhFOOsw5nADTEnLxAw8H6QIf8j056Ysvw=
 			</data>
 		</dict>
-		<key>Customer.storyboardc/aCH-2B-RFE-view-vB8-rm-TD4.nib</key>
+		<key>Customer.storyboardc/XcH-hg-r95-view-fIG-wp-QfQ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VgsFrDMpRcAu7LxcJ1EjYMhHhRYUqnVE4KFDmqbKh/4=
+			PlznfQPClMxLgKQ0U7fjK4/Wxdtym6d5rGIqGb569XU=
 			</data>
 		</dict>
 		<key>CustomerJsonData.json</key>
@@ -237,84 +305,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pqIsCarcFeCmLmYLAU5EUJSPwzFfNImIvi7c1klFgTY=
+			9cff8c7ujqdrExp8EIPzBLr4aIaJ/k1jlkxLtTy/uCA=
+			</data>
+		</dict>
+		<key>Dashboard.storyboardc/GSW-H6-sr8-view-Dwa-LV-KdX.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sL53lDaRFwh/CVfX358I1yNVOs7GMQM4Myfi22ftXHk=
 			</data>
 		</dict>
 		<key>Dashboard.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bHJ+jxeG3o3JRZ2Hbrdd2h785ulNllfdGECKckgluKE=
+			wGQIS/5zeMrZhaKJtHVYhVvxwI/oUWAaDqHqp87G/KI=
 			</data>
 		</dict>
 		<key>Dashboard.storyboardc/LeftMenuViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJrhjN+PAkok/jsxU+wU9rrk134KsCrv5mfz3pT5BUo=
+			RM3rx/CMHz+zu2awzjLs+auoomTDQznwMgfaGXHZf50=
 			</data>
 		</dict>
 		<key>Dashboard.storyboardc/UINavigationController-DRo-bv-5pO.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XK+trpC7wNs3qK3V+DhcbvTnsJT65+ScqFOPk+ke3g0=
+			6aJCVhVPPp3h3lk75W1X4vjDHmacpeNnmsAiRNnKXOE=
 			</data>
 		</dict>
 		<key>Dashboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0CsuLC4WDLzCyRNwXtW72bliitzL/VZdV2OkYDjUXr0=
-			</data>
-		</dict>
-		<key>Dashboard.storyboardc/sFb-qk-FqF-view-Cp3-d4-x92.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			166tj+2KvBECNFyZ6AqxxpZz/VsdxrfB5pzTqHJr2ZE=
+			ZMIFFWn+Gbt47Hye2THNjxHZBvcXxMugxg76gPzKyWE=
 			</data>
 		</dict>
 		<key>Invoice.storyboardc/7aK-Sv-gyp-view-Ycn-7k-5Tn.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hBCEv/t4RPO8SjlGGVV/D4KgJYS2OAbx/aAWDmpy0d4=
+			IOmh7d9iGe5SmwNLoMOHQDOv4kCDCKaalkgDmNdU/oI=
 			</data>
 		</dict>
 		<key>Invoice.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGrJ/wAHpIlUV9JFZCQ/ZwHLDaZ4o3+/95YSVkMx8Io=
+			vJQZ5aeAv1Q6Rtqfz+Q4O4oO5sTb4LBc33RbCRWDWdw=
+			</data>
+		</dict>
+		<key>Invoice.storyboardc/InvoiceDetailsViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NG6cU1wF62kZADrDHLm1nIKg2KJKeupPIB/QA3SJcp4=
 			</data>
 		</dict>
 		<key>Invoice.storyboardc/InvoicePaymentsVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MUGOgV6Ef1MRZv44VZUV93DYMWufXFkJ282aOAiFatw=
+			G8eVUYOQbdKNgaMNcguBi6ihh+oDTdteabR2BKVkPJg=
 			</data>
 		</dict>
 		<key>Invoice.storyboardc/InvoiceViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xVUMIUPbeiv/2dhSWus9Vzk6QahdIeHeiUabrzNgOzU=
+			QH5GV4BeyCttauVldIIBQhHjWvR+QMrAojAb97sG0oA=
 			</data>
 		</dict>
 		<key>Invoice.storyboardc/VHK-Ub-7Es-view-XQG-Ud-lKP.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Brprfve9c0jOhJUbzA+RVXo54gb9noysVKwk7MJWq2s=
+			BUX37jP926Zjl7oPRd/gLOZWame0AohSZwl5h8ljaGY=
 			</data>
 		</dict>
-		<key>InvoiceDetailsTVC.nib</key>
+		<key>Invoice.storyboardc/pfw-da-Mv5-view-08e-c7-psG.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			16S0dDpudQQt+D10/PKLVabKPBdM7Im4EaYJJ7GzJiE=
+			FqWJZw7MQKEAuyB2XBB9Mk7sgnj5wcAVSgJb486yazc=
+			</data>
+		</dict>
+		<key>InvoiceListTVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HEoBCfOmA55toglgs9Fb15p+AwTmDrmrUk9vJLuG7wc=
 			</data>
 		</dict>
 		<key>InvoicePaymentsTVC.nib</key>
@@ -324,11 +406,102 @@
 			98x0AzxwKrjTHGHcJeZZm1KXCbKTrPAhXFKN/Q1Vlc4=
 			</data>
 		</dict>
+		<key>LeftMenuSubDataTVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pSqXNCfCA5lTkp5RxbfrrBjIufMSSbQNSPa1g1gk2y4=
+			</data>
+		</dict>
+		<key>LeftMenuTVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NbWJ0Vzn7Brfw1/fGhBRFpjS8ctkiBibsFBQbnHcuHQ=
+			</data>
+		</dict>
 		<key>PaymentManagement.debug.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xzjhNm3oPQ5Cs6T7OQpC69h6YE07V0psRfESRjxg2Nc=
+			/rtm/tjhZ/6HVardwgURuRxI/SFlohU/GNS50X6mQM0=
+			</data>
+		</dict>
+		<key>Tax.storyboardc/5Dx-yn-fGC-view-q8k-7b-CVe.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8y5BXhbWh2ZHk4ffjm+DFOsM4vKjRTnL3qT+LNbBCXk=
+			</data>
+		</dict>
+		<key>Tax.storyboardc/AddNewTaxViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OhVQMfSUQBne5nGEq5C8I232xv5GZfzDjDmnyLrYE7M=
+			</data>
+		</dict>
+		<key>Tax.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+TrA5ayZk4V+qv5Om73vXFNt6oEuk+6nsKmplAomwYU=
+			</data>
+		</dict>
+		<key>Tax.storyboardc/TaxViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/W1hvzGSFkOhvgzrx6bF502GyQNT1QOLD2k7KgFgLU0=
+			</data>
+		</dict>
+		<key>Tax.storyboardc/UpdateTaxViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o7y7bWlLCkJLJGrSF61GDTOFcK4VbyGjm+54ZGfYqME=
+			</data>
+		</dict>
+		<key>Tax.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7tHcEzJSS4yJBLgLmn4JY19etr9sB/9LMBpO60GPjls=
+			</data>
+		</dict>
+		<key>Tax.storyboardc/jld-vT-ier-view-Tw5-pp-KXe.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1EaAaHFXmnSIj0wZ0vpDrObGW6sxFrnurpg0D/vrb+c=
+			</data>
+		</dict>
+		<key>TaxHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RUzHKxhkL593mAfS7DLFq679lMnBddkdnCSXtG2mPZU=
+			</data>
+		</dict>
+		<key>TaxListTVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ElAeMYC8UJ6QecK7P5W6nOA9HCMveh+YCkNkq+UyNXM=
+			</data>
+		</dict>
+		<key>TaxModel.momd/TaxModel.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JFWGWb4aXNDLLBGyntIpu5l4UExXWTh4Xaw3vWFbHxA=
+			</data>
+		</dict>
+		<key>TaxModel.momd/VersionInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Hh5mY3bAze5Fp2OPiWt5QSUg6AzwEL7TTj4Ep0+1Wx4=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>
@@ -336,6 +509,20 @@
 			<key>hash2</key>
 			<data>
 			q5YkmoKnp0cSsxGH1dOGzS8Jweb5GYUqZENng655JN0=
+			</data>
+		</dict>
+		<key>invoiceDetailsHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lqmwenIqI59261Dy+6jR4JA6qLYJwoGKjgJaz9lr/ZM=
+			</data>
+		</dict>
+		<key>invoiceDetailsTVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NrIFhvRQm073PR3/75d8TQUKu/wQScKAfq8/Upq1yR4=
 			</data>
 		</dict>
 		<key>invoiceHeader.json</key>

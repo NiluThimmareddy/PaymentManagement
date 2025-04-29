@@ -34,6 +34,48 @@ extension DeveloperToolsSupport.ColorResource {
 @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
 extension DeveloperToolsSupport.ImageResource {
 
+    /// The "add" asset catalog image resource.
+    static let add = DeveloperToolsSupport.ImageResource(name: "add", bundle: resourceBundle)
+
+    /// The "airplay" asset catalog image resource.
+    static let airplay = DeveloperToolsSupport.ImageResource(name: "airplay", bundle: resourceBundle)
+
+    /// The "compose" asset catalog image resource.
+    static let compose = DeveloperToolsSupport.ImageResource(name: "compose", bundle: resourceBundle)
+
+    /// The "dload" asset catalog image resource.
+    static let dload = DeveloperToolsSupport.ImageResource(name: "dload", bundle: resourceBundle)
+
+    /// The "download" asset catalog image resource.
+    static let download = DeveloperToolsSupport.ImageResource(name: "download", bundle: resourceBundle)
+
+    /// The "logoMain" asset catalog image resource.
+    static let logoMain = DeveloperToolsSupport.ImageResource(name: "logoMain", bundle: resourceBundle)
+
+    /// The "logoSample" asset catalog image resource.
+    static let logoSample = DeveloperToolsSupport.ImageResource(name: "logoSample", bundle: resourceBundle)
+
+    /// The "percent" asset catalog image resource.
+    static let percent = DeveloperToolsSupport.ImageResource(name: "percent", bundle: resourceBundle)
+
+    /// The "printer" asset catalog image resource.
+    static let printer = DeveloperToolsSupport.ImageResource(name: "printer", bundle: resourceBundle)
+
+    /// The "trash" asset catalog image resource.
+    static let trash = DeveloperToolsSupport.ImageResource(name: "trash", bundle: resourceBundle)
+
+    /// The "trash-bin" asset catalog image resource.
+    static let trashBin = DeveloperToolsSupport.ImageResource(name: "trash-bin", bundle: resourceBundle)
+
+    /// The "upload" asset catalog image resource.
+    static let upload = DeveloperToolsSupport.ImageResource(name: "upload", bundle: resourceBundle)
+
+    /// The "user" asset catalog image resource.
+    static let user = DeveloperToolsSupport.ImageResource(name: "user", bundle: resourceBundle)
+
+    /// The "wallet" asset catalog image resource.
+    static let wallet = DeveloperToolsSupport.ImageResource(name: "wallet", bundle: resourceBundle)
+
 }
 
 // MARK: - Color Symbol Extensions -
@@ -97,6 +139,132 @@ extension SwiftUI.ShapeStyle where Self == SwiftUI.Color {
 @available(macCatalyst, unavailable)
 extension AppKit.NSImage {
 
+    /// The "add" asset catalog image.
+    static var add: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .add)
+#else
+        .init()
+#endif
+    }
+
+    /// The "airplay" asset catalog image.
+    static var airplay: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .airplay)
+#else
+        .init()
+#endif
+    }
+
+    /// The "compose" asset catalog image.
+    static var compose: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .compose)
+#else
+        .init()
+#endif
+    }
+
+    /// The "dload" asset catalog image.
+    static var dload: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .dload)
+#else
+        .init()
+#endif
+    }
+
+    /// The "download" asset catalog image.
+    static var download: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .download)
+#else
+        .init()
+#endif
+    }
+
+    /// The "logoMain" asset catalog image.
+    static var logoMain: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .logoMain)
+#else
+        .init()
+#endif
+    }
+
+    /// The "logoSample" asset catalog image.
+    static var logoSample: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .logoSample)
+#else
+        .init()
+#endif
+    }
+
+    /// The "percent" asset catalog image.
+    static var percent: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .percent)
+#else
+        .init()
+#endif
+    }
+
+    /// The "printer" asset catalog image.
+    static var printer: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .printer)
+#else
+        .init()
+#endif
+    }
+
+    /// The "trash" asset catalog image.
+    static var trash: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .trash)
+#else
+        .init()
+#endif
+    }
+
+    /// The "trash-bin" asset catalog image.
+    static var trashBin: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .trashBin)
+#else
+        .init()
+#endif
+    }
+
+    /// The "upload" asset catalog image.
+    static var upload: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .upload)
+#else
+        .init()
+#endif
+    }
+
+    /// The "user" asset catalog image.
+    static var user: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .user)
+#else
+        .init()
+#endif
+    }
+
+    /// The "wallet" asset catalog image.
+    static var wallet: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .wallet)
+#else
+        .init()
+#endif
+    }
+
 }
 #endif
 
@@ -104,6 +272,125 @@ extension AppKit.NSImage {
 @available(iOS 17.0, tvOS 17.0, *)
 @available(watchOS, unavailable)
 extension UIKit.UIImage {
+
+    #warning("The \"add\" image asset name resolves to a conflicting UIImage symbol \"add\". Try renaming the asset.")
+
+    /// The "airplay" asset catalog image.
+    static var airplay: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .airplay)
+#else
+        .init()
+#endif
+    }
+
+    /// The "compose" asset catalog image.
+    static var compose: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .compose)
+#else
+        .init()
+#endif
+    }
+
+    /// The "dload" asset catalog image.
+    static var dload: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .dload)
+#else
+        .init()
+#endif
+    }
+
+    /// The "download" asset catalog image.
+    static var download: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .download)
+#else
+        .init()
+#endif
+    }
+
+    /// The "logoMain" asset catalog image.
+    static var logoMain: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .logoMain)
+#else
+        .init()
+#endif
+    }
+
+    /// The "logoSample" asset catalog image.
+    static var logoSample: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .logoSample)
+#else
+        .init()
+#endif
+    }
+
+    /// The "percent" asset catalog image.
+    static var percent: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .percent)
+#else
+        .init()
+#endif
+    }
+
+    /// The "printer" asset catalog image.
+    static var printer: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .printer)
+#else
+        .init()
+#endif
+    }
+
+    /// The "trash" asset catalog image.
+    static var trash: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .trash)
+#else
+        .init()
+#endif
+    }
+
+    /// The "trash-bin" asset catalog image.
+    static var trashBin: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .trashBin)
+#else
+        .init()
+#endif
+    }
+
+    /// The "upload" asset catalog image.
+    static var upload: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .upload)
+#else
+        .init()
+#endif
+    }
+
+    /// The "user" asset catalog image.
+    static var user: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .user)
+#else
+        .init()
+#endif
+    }
+
+    /// The "wallet" asset catalog image.
+    static var wallet: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .wallet)
+#else
+        .init()
+#endif
+    }
 
 }
 #endif
@@ -225,6 +512,26 @@ extension DeveloperToolsSupport.ImageResource {
     }
 
 }
+
+#if canImport(AppKit)
+@available(macOS 14.0, *)
+@available(macCatalyst, unavailable)
+extension AppKit.NSImage {
+
+    private convenience init?(thinnableResource: DeveloperToolsSupport.ImageResource?) {
+#if !targetEnvironment(macCatalyst)
+        if let resource = thinnableResource {
+            self.init(resource: resource)
+        } else {
+            return nil
+        }
+#else
+        return nil
+#endif
+    }
+
+}
+#endif
 
 #if canImport(UIKit)
 @available(iOS 17.0, tvOS 17.0, *)

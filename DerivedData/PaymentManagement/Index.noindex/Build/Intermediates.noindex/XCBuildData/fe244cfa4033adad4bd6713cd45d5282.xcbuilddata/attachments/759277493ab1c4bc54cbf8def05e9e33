@@ -1,0 +1,135 @@
+{
+  "" : {
+    "dependencies" : "/Users/toqsoft/Documents/PaymentManagement/DerivedData/PaymentManagement/Index.noindex/Build/Intermediates.noindex/PaymentManagement.build/Debug-iphoneos/PaymentManagement.build/Objects-normal/arm64/PaymentManagement-master.d",
+    "diagnostics" : "/Users/toqsoft/Documents/PaymentManagement/DerivedData/PaymentManagement/Index.noindex/Build/Intermediates.noindex/PaymentManagement.build/Debug-iphoneos/PaymentManagement.build/Objects-normal/arm64/PaymentManagement-master.dia",
+    "emit-module-dependencies" : "/Users/toqsoft/Documents/PaymentManagement/DerivedData/PaymentManagement/Index.noindex/Build/Intermediates.noindex/PaymentManagement.build/Debug-iphoneos/PaymentManagement.build/Objects-normal/arm64/PaymentManagement-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/toqsoft/Documents/PaymentManagement/DerivedData/PaymentManagement/Index.noindex/Build/Intermediates.noindex/PaymentManagement.build/Debug-iphoneos/PaymentManagement.build/Objects-normal/arm64/PaymentManagement-master-emit-module.dia",
+    "swift-dependencies" : "/Users/toqsoft/Documents/PaymentManagement/DerivedData/PaymentManagement/Index.noindex/Build/Intermediates.noindex/PaymentManagement.build/Debug-iphoneos/PaymentManagement.build/Objects-normal/arm64/PaymentManagement-master.swiftdeps"
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/DerivedData/PaymentManagement/Index.noindex/Build/Intermediates.noindex/PaymentManagement.build/Debug-iphoneos/PaymentManagement.build/DerivedSources/CoreDataGenerated/TaxModel/Tax+CoreDataClass.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/DerivedData/PaymentManagement/Index.noindex/Build/Intermediates.noindex/PaymentManagement.build/Debug-iphoneos/PaymentManagement.build/DerivedSources/CoreDataGenerated/TaxModel/Tax+CoreDataProperties.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/DerivedData/PaymentManagement/Index.noindex/Build/Intermediates.noindex/PaymentManagement.build/Debug-iphoneos/PaymentManagement.build/DerivedSources/CoreDataGenerated/TaxModel/TaxModel+CoreDataModel.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/DerivedData/PaymentManagement/Index.noindex/Build/Intermediates.noindex/PaymentManagement.build/Debug-iphoneos/PaymentManagement.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Application/AppDelegate.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Application/SceneDelegate.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Constant/Constant.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Extension/Extension.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Extension/UITextField+Extension.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Extension/UIView+Extension.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Helper/ApiManager.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Helper/AsyncDataServiceProtocol.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Helper/FileManager.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Helper/GenericViewModel.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Customer/Model/CustomerModel.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Customer/View/AddNewCustomerViewController.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Customer/View/CustomerTableViewCell.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Customer/View/CustomerViewController.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Customer/ViewModel/AddCustomerViewModel.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Customer/ViewModel/CustomerViewModel.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Dashboard/DashboardXibCells/LeftMenuSubDataTVC.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Dashboard/DashboardXibCells/LeftMenuTVC.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Dashboard/View/DashboardViewController.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Dashboard/View/LeftMenuViewController.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Invoice/Model/invoiceModel.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Invoice/View/InvoiceDetailsViewController.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Invoice/View/InvoiceHeaderView/invoiceDetailsHeaderView.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Invoice/View/InvoicePaymentsVC.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Invoice/View/InvoiceViewController.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Invoice/View/InvoiceXIBCells/InvoiceListTVC.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Invoice/View/InvoiceXIBCells/InvoicePaymentsTVC.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Invoice/View/InvoiceXIBCells/invoiceDetailsTVC.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Invoice/ViewModel/InvoiceViewModel.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Tax/Manager/CoreDataManager.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Tax/Model/TaxModel.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Tax/View/AddNewTaxViewController.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Tax/View/TaxHeaderView/TaxHeaderView.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Tax/View/TaxViewController.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Tax/View/TaxXibCells/TaxListTVC.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Tax/View/UpdateTaxViewController.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/Screen/Tax/ViewModel/TaxViewModel.swift" : {
+
+  },
+  "/Users/toqsoft/Documents/PaymentManagement/PaymentManagement/ViewController.swift" : {
+
+  }
+}

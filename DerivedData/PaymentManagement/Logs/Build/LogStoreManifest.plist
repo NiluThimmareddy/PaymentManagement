@@ -6,7 +6,7 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>05C1584D-B37E-4DD5-8B08-A9A1E38C8226</key>
+		<key>056730F9-4063-433F-B3C5-E8B8DE661763</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>05C1584D-B37E-4DD5-8B08-A9A1E38C8226.xcactivitylog</string>
+			<string>056730F9-4063-433F-B3C5-E8B8DE661763.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -29,7 +29,7 @@
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
-				<integer>1</integer>
+				<integer>8</integer>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>PaymentManagement project</string>
@@ -40,265 +40,13 @@
 			<key>signature</key>
 			<string>Build PaymentManagement</string>
 			<key>timeStartedRecording</key>
-			<real>767508900.56048596</real>
+			<real>767602644.91888702</real>
 			<key>timeStoppedRecording</key>
-			<real>767508903.50912404</real>
+			<real>767602654.94230902</real>
 			<key>title</key>
 			<string>Build PaymentManagement</string>
 			<key>uniqueIdentifier</key>
-			<string>05C1584D-B37E-4DD5-8B08-A9A1E38C8226</string>
-		</dict>
-		<key>306E294A-5D10-44A0-9C20-68FE652B39AC</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>306E294A-5D10-44A0-9C20-68FE652B39AC.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>4</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PaymentManagement project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PaymentManagement</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PaymentManagement</string>
-			<key>timeStartedRecording</key>
-			<real>767525655.01762795</real>
-			<key>timeStoppedRecording</key>
-			<real>767525659.78539503</real>
-			<key>title</key>
-			<string>Build PaymentManagement</string>
-			<key>uniqueIdentifier</key>
-			<string>306E294A-5D10-44A0-9C20-68FE652B39AC</string>
-		</dict>
-		<key>5F718A08-40D0-46CC-8DA9-072BE8B12AB6</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5F718A08-40D0-46CC-8DA9-072BE8B12AB6.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>5</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PaymentManagement project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PaymentManagement</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PaymentManagement</string>
-			<key>timeStartedRecording</key>
-			<real>767526142.32518005</real>
-			<key>timeStoppedRecording</key>
-			<real>767526146.24880505</real>
-			<key>title</key>
-			<string>Build PaymentManagement</string>
-			<key>uniqueIdentifier</key>
-			<string>5F718A08-40D0-46CC-8DA9-072BE8B12AB6</string>
-		</dict>
-		<key>8C4B8C21-972A-43AC-BABC-0876EA89A490</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8C4B8C21-972A-43AC-BABC-0876EA89A490.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>3</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PaymentManagement project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PaymentManagement</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PaymentManagement</string>
-			<key>timeStartedRecording</key>
-			<real>767509505.06883299</real>
-			<key>timeStoppedRecording</key>
-			<real>767509507.15670395</real>
-			<key>title</key>
-			<string>Build PaymentManagement</string>
-			<key>uniqueIdentifier</key>
-			<string>8C4B8C21-972A-43AC-BABC-0876EA89A490</string>
-		</dict>
-		<key>A6854530-DE9D-4682-A2EC-00FE66298E95</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A6854530-DE9D-4682-A2EC-00FE66298E95.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>3</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PaymentManagement project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PaymentManagement</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PaymentManagement</string>
-			<key>timeStartedRecording</key>
-			<real>767523947.80493701</real>
-			<key>timeStoppedRecording</key>
-			<real>767523952.03706503</real>
-			<key>title</key>
-			<string>Build PaymentManagement</string>
-			<key>uniqueIdentifier</key>
-			<string>A6854530-DE9D-4682-A2EC-00FE66298E95</string>
-		</dict>
-		<key>C4B6FD09-3349-488A-87CD-952EF3DE1F17</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C4B6FD09-3349-488A-87CD-952EF3DE1F17.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>2</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PaymentManagement project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PaymentManagement</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PaymentManagement</string>
-			<key>timeStartedRecording</key>
-			<real>767470091.41332603</real>
-			<key>timeStoppedRecording</key>
-			<real>767470091.75083494</real>
-			<key>title</key>
-			<string>Build PaymentManagement</string>
-			<key>uniqueIdentifier</key>
-			<string>C4B6FD09-3349-488A-87CD-952EF3DE1F17</string>
-		</dict>
-		<key>F0EA7DC1-FF3C-4ABA-B05B-D7440CD9EFF5</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F0EA7DC1-FF3C-4ABA-B05B-D7440CD9EFF5.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>2</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>PaymentManagement project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>PaymentManagement</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build PaymentManagement</string>
-			<key>timeStartedRecording</key>
-			<real>767525519.99860406</real>
-			<key>timeStoppedRecording</key>
-			<real>767525521.28824997</real>
-			<key>title</key>
-			<string>Build PaymentManagement</string>
-			<key>uniqueIdentifier</key>
-			<string>F0EA7DC1-FF3C-4ABA-B05B-D7440CD9EFF5</string>
+			<string>056730F9-4063-433F-B3C5-E8B8DE661763</string>
 		</dict>
 	</dict>
 </dict>

@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'PaymentManagement' in project 'PaymentManagement' (no dependencies)
