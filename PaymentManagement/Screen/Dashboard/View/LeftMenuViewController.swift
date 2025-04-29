@@ -44,10 +44,15 @@ class LeftMenuViewController: UIViewController {
    
     @IBAction func exitLeftMenuButton(_ sender: Any) {
         UIView.animate(withDuration: 0.3, animations: {
-                self.view.frame.origin.x = -self.view.frame.width
-            }) { _ in
-                self.dismiss(animated: false)
-            }
+            self.view.frame.origin.x = -self.view.frame.width
+        }) { _ in
+            self.willMove(toParent: nil)
+            self.view.removeFromSuperview()
+            self.removeFromParent()
+            
+            // ✅ Inform parent via Notification
+            NotificationCenter.default.post(name: Notification.Name("LeftMenuDismissed"), object: nil)
+        }
     }
     
 }

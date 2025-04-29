@@ -6,9 +6,12 @@
 //
 
 import UIKit
-
+protocol InvoicePaymentsTVCDelegate: AnyObject{
+    func didViewCell(indexPath: IndexPath)
+}
 class InvoicePaymentsTVC: UITableViewCell {
-
+ weak var delegate: InvoicePaymentsTVCDelegate?
+    var indexPath: IndexPath!
     @IBOutlet weak var backView: UIView!
     @IBOutlet weak var invoiceNumberLabel: UILabel!
     @IBOutlet weak var transactionDateLabel: UILabel!
@@ -28,6 +31,7 @@ class InvoicePaymentsTVC: UITableViewCell {
     }
 
     @IBAction func eyeButtonAction(_ sender: Any) {
+        delegate?.didViewCell(indexPath: indexPath)
     }
     
 }

@@ -99,20 +99,19 @@ class InvoiceDetailsViewController: UIViewController {
             total: "$135.66"
             )
     ]
+    var passData: InvoiceLabels?
     var invoiceHeaderView: invoiceDetailsHeaderView?
     private let invoiceVM = InvoiceViewModel()
     
     //OUTLETS
     @IBOutlet weak var invoiceHeaderViewTV: UITableView!
-    @IBOutlet weak var downloadButtonStackView: UIStackView!
-    @IBOutlet weak var downloadButton: UIButton!
     @IBOutlet weak var printButton: UIButton!
     @IBOutlet weak var copyRightLbl: UILabel!
     @IBOutlet weak var remarksContentLbl: UILabel!
     @IBOutlet weak var subTotalLbl: UILabel!
     @IBOutlet weak var totalTaxLbl: UILabel!
     @IBOutlet weak var grandTotalLbl: UILabel!
-    @IBOutlet weak var invoiceDetailsTVHeightConstraint: NSLayoutConstraint! // BASE 50
+    @IBOutlet weak var invoiceDetailsTVHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var invoiceDetailsTV: UITableView!
     @IBOutlet weak var invoiceSmallTableBackView: UIView!
     @IBOutlet weak var invoiceNumberLbl: UILabel!
@@ -137,6 +136,7 @@ class InvoiceDetailsViewController: UIViewController {
     @IBOutlet weak var companyNameLbl: UILabel!
     @IBOutlet weak var invoiceScrollView: UIScrollView!
     @IBOutlet weak var invoiceContentView: UIView!
+   
     @IBOutlet weak var invoiceContentViewHeightConstraint: NSLayoutConstraint!
     
     var cusomerVM = CustomerViewModel()
@@ -147,7 +147,7 @@ class InvoiceDetailsViewController: UIViewController {
         invoiceSmallTableBackView.layer.borderColor = UIColor(red: 224/255, green: 224/255, blue: 224/255, alpha: 1).cgColor
         invoiceDetailsTV.register(UINib(nibName: "invoiceDetailsTVC", bundle: nil), forCellReuseIdentifier: "invoiceDetailsTVC")
         invoiceHeaderViewTV.register(UINib(nibName: "invoiceDetailsTVC", bundle: nil), forCellReuseIdentifier: "invoiceDetailsTVC")
-        downloadButton.layer.cornerRadius = 10
+        
         printButton.layer.cornerRadius = 10
         fetchCustomerData()
 //        addNewCustomer()
@@ -163,7 +163,7 @@ class InvoiceDetailsViewController: UIViewController {
         let numberOfRows = invoiceDetailsTV.numberOfRows(inSection: 0)
         let rowHeight: CGFloat = 55
         let baseTableHeight: CGFloat = 60
-        let defaultContentViewHeight: CGFloat = 814
+        let defaultContentViewHeight: CGFloat = 834
         let tableViewHeight = max(baseTableHeight, CGFloat(numberOfRows) * rowHeight)
         invoiceDetailsTVHeightConstraint.constant = tableViewHeight
         invoiceContentViewHeightConstraint.constant = defaultContentViewHeight + tableViewHeight - baseTableHeight
@@ -241,11 +241,10 @@ class InvoiceDetailsViewController: UIViewController {
     deinit {
         print("InvoiceDetailsViewController deinitialized...")
     }
-    @IBAction func downloadButton(_ sender: Any) {
-    }
+    
     
     @IBAction func printButton(_ sender: Any) {
-        downloadButtonStackView.isHidden = true
+        
         
            invoiceContentView.layoutIfNeeded()
 
@@ -266,7 +265,7 @@ class InvoiceDetailsViewController: UIViewController {
            printController.printingItem = data
 
            printController.present(animated: true) { (_, completed, _) in
-               self.downloadButtonStackView.isHidden = false
+               self.invoiceContentView.isHidden = false
            }
     }
     
