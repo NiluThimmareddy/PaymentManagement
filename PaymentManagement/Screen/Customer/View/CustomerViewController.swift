@@ -8,7 +8,7 @@
 import UIKit
 
 class CustomerViewController: UIViewController {
-
+    
     
     @IBOutlet weak var customerScrollview: UIScrollView!
     @IBOutlet weak var customerTableView: UITableView!
@@ -19,9 +19,9 @@ class CustomerViewController: UIViewController {
         super.viewDidLoad()
         addNewCustomer()
         fetchCustomerData()
-      
-//        updateCustomer()
-      //  deleteCustomer()
+        
+        //        updateCustomer()
+        //  deleteCustomer()
         setupAddCustomerButton()
         setupTableView()
         setScrollViewBorder()
@@ -32,16 +32,17 @@ class CustomerViewController: UIViewController {
         customerScrollview.layer.borderColor = UIColor.placeholderText.cgColor
     }
     
-  func setupAddCustomerButton(){
-      navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(NavigateToaddNewCustomer))
-      
+    func setupAddCustomerButton(){
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(NavigateToaddNewCustomer))
+        
     }
     
     @objc func NavigateToaddNewCustomer(){
         //Code For open Add Customer Form
-        let controller = storyboard?.instantiateViewController(withIdentifier: "AddNewCustomerViewController") as!
-     AddNewCustomerViewController
-        controller.modalPresentationStyle = .popover
+        let storyboard = UIStoryboard(name: "Customer", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "AddNewCustomerViewController") as!
+        AddNewCustomerViewController
+        
         self.present(controller, animated: true)
     }
     
@@ -59,13 +60,13 @@ class CustomerViewController: UIViewController {
                 DispatchQueue.main.async {
                     switch result {
                     case .success(let customer):
-//                        self?.customerListLabel.text = customer.description
+                        //                        self?.customerListLabel.text = customer.description
                         print(customer)
                         self?.customerTableView.reloadData()
-                case .failure(let error ) :
-                    print("Error: \(error)")
+                    case .failure(let error ) :
+                        print("Error: \(error)")
+                    }
                 }
-            }
             }
         }
     }
@@ -76,10 +77,10 @@ class CustomerViewController: UIViewController {
                 if let error = error{
                     print("Failed to add: \(error)")
                 }else if let customerarray = customerarray {
-                   DispatchQueue.main.async {
-                          self?.customerTableView.reloadData()
+                    DispatchQueue.main.async {
+                        self?.customerTableView.reloadData()
                     }
-                 
+                    
                     print("Succcessfully added. Totla Count \(String(describing: customerarray.count)) \n \(customerarray)")
                 }
             })
@@ -88,40 +89,40 @@ class CustomerViewController: UIViewController {
     
     
     func updateCustomer(){
-            
-             
+        
+        
         customerVM.updateCustomer(customerVM.updateCustomer, completion: { [weak self] customerarray, error in
-                if let error = error{
-                    print("Failed to update: \(error)")
-                }else if let list = customerarray{
-                        DispatchQueue.main.async {
-                              self?.customerTableView.reloadData()
-                        }
-                     
-                    print("Succcessfully Customer updated :  \n \(list)")
+            if let error = error{
+                print("Failed to update: \(error)")
+            }else if let list = customerarray{
+                DispatchQueue.main.async {
+                    self?.customerTableView.reloadData()
                 }
-            })
-         
+                
+                print("Succcessfully Customer updated :  \n \(list)")
+            }
+        })
+        
     }
     
     
     func deleteCustomer(){
-           
-   
+        
+        
         customerVM.deleteCustomer(customerVM.CustomerToDelete) { [weak self] custoemrArray, error in
-                if let error = error{
-                    print("Failed to delete Customer: \(error)")
-                }else if let list = custoemrArray{
-                       DispatchQueue.main.async {
-                              self?.customerTableView.reloadData()
-                        }
-                     
-                    print("Succcessfully Customer updeleteddated :  \n \(list)")
+            if let error = error{
+                print("Failed to delete Customer: \(error)")
+            }else if let list = custoemrArray{
+                DispatchQueue.main.async {
+                    self?.customerTableView.reloadData()
                 }
+                
+                print("Succcessfully Customer updeleteddated :  \n \(list)")
             }
-         
+        }
+        
     }
-
+    
     deinit {
         print("CustomerViewController deinitialized...")
     }

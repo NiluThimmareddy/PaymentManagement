@@ -152,7 +152,7 @@ extension InvoiceViewController {
         customerTableView.frame = CGRect(x: searchBar.frame.origin.x,
                                          y: searchBar.frame.maxY,
                                          width: view.frame.width - 32,
-                                         height: 200)
+                                         height: 400)
         customerTableView.register(UITableViewCell.self, forCellReuseIdentifier: "CustomerCell")
         customerTableView.delegate = self
         customerTableView.dataSource = self
