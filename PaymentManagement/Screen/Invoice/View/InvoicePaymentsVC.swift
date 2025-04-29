@@ -58,9 +58,12 @@ extension InvoicePaymentsVC : UITableViewDelegate, UITableViewDataSource,Invoice
     func didViewCell(indexPath: IndexPath) {
         let  data = callInvoiceLabels[indexPath.row]
         let storyboard = UIStoryboard(name: "Invoice", bundle: nil)
-        let controller = storyboard.instantiateViewController(identifier: "InvoiceDetailsViewController") as! InvoiceDetailsViewController
+        let controller = storyboard.instantiateViewController(withIdentifier: "InvoiceDetailsViewController") as! InvoiceDetailsViewController
         controller.passData = data
-        self.navigationController?.pushViewController(controller, animated: true)
+        controller.title = "Invoice"
+        controller.navigationItem.backBarButtonItem?.title = ""
+        self.show(controller, sender: self)
+       
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

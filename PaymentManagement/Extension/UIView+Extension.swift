@@ -42,4 +42,15 @@ extension UIView {
             layer.masksToBounds = newValue > 0
         }
     }
+    func applyCardStyle(cornerRadius: CGFloat = 15,
+                        shadowOffset: CGSize = CGSize(width: 0, height: 1),
+                        shadowRadius: CGFloat = 2,
+                        shadowOpacity: Float = 0.5) {
+        
+        self.layer.cornerRadius = cornerRadius
+        self.layer.shadowOffset = shadowOffset
+        self.layer.shadowRadius = shadowRadius
+        self.layer.shadowPath = nil // or .none
+        self.layer.shadowOpacity = shadowOpacity
+    }
 }

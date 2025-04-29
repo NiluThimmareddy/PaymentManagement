@@ -20,33 +20,36 @@
                                 <rect key="frame" x="10" y="128" width="373" height="646"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tax List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKb-qu-Eyc">
-                                        <rect key="frame" x="25" y="25" width="56" height="18"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <rect key="frame" x="25" y="25" width="71.666666666666671" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gm2-v9-BSU">
-                                        <rect key="frame" x="10" y="53" width="353" height="1"/>
+                                        <rect key="frame" x="10" y="59" width="353" height="1"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="N3z-4D-8FG"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3E-9z-xex">
-                                        <rect key="frame" x="253" y="64" width="110" height="35"/>
+                                        <rect key="frame" x="253" y="70" width="110" height="40"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="QmD-Cp-pyk"/>
                                             <constraint firstAttribute="width" constant="110" id="paR-95-cuL"/>
                                         </constraints>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Add New  "/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Add New  ">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="addNewButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Rao-m7-EbO"/>
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add" translatesAutoresizingMaskIntoConstraints="NO" id="dJW-nH-wv1">
-                                        <rect key="frame" x="338" y="71.666666666666657" width="20" height="20"/>
+                                        <rect key="frame" x="338" y="80" width="20" height="20"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="eHN-Qg-ZpR"/>
@@ -54,7 +57,7 @@
                                         </constraints>
                                     </imageView>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="7DZ-lf-dNO">
-                                        <rect key="frame" x="10" y="109" width="353" height="527"/>
+                                        <rect key="frame" x="10" y="120" width="353" height="516"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <connections>
                                             <outlet property="dataSource" destination="Y6W-OH-hqX" id="geG-Bw-ADW"/>
@@ -90,7 +93,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="addNewButton" destination="dJW-nH-wv1" id="idd-PV-Yjv"/>
+                        <outlet property="addNewButton" destination="h3E-9z-xex" id="rF7-AL-zkP"/>
                         <outlet property="taxLineView" destination="gm2-v9-BSU" id="yty-bS-lah"/>
                         <outlet property="taxListBackView" destination="Vu8-Ey-v9A" id="Xyp-eE-OJ1"/>
                         <outlet property="taxListTV" destination="7DZ-lf-dNO" id="wvQ-xo-bGJ"/>
@@ -111,25 +114,25 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vok-fw-THR">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <action selector="closeButton:" destination="jld-vT-ier" eventType="touchUpInside" id="5gg-U2-pJh"/>
+                                    <action selector="closeButton:" destination="jld-vT-ier" eventType="touchUpInside" id="elg-zx-EAz"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EK7-nF-Xhc">
                                 <rect key="frame" x="50" y="286" width="293" height="280"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add New Tax" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eD6-Ad-ZQd">
-                                        <rect key="frame" x="10" y="10" width="94.666666666666671" height="18"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <rect key="frame" x="10.000000000000007" y="10" width="121.66666666666669" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UdI-gK-KdR">
-                                        <rect key="frame" x="258" y="6.6666666666666856" width="25" height="25"/>
+                                        <rect key="frame" x="258" y="9.6666666666666856" width="25" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="0w2-zn-gO4"/>
                                             <constraint firstAttribute="width" constant="25" id="poe-Ir-BFn"/>
@@ -142,36 +145,36 @@
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ewp-OV-xVE">
-                                        <rect key="frame" x="10" y="38" width="273" height="1"/>
+                                        <rect key="frame" x="10" y="44" width="273" height="1"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="kQv-MW-sgN"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tax Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgj-hq-236">
-                                        <rect key="frame" x="10" y="59" width="76" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="10" y="65" width="79.666666666666671" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tax Percentage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJD-4K-lft">
-                                        <rect key="frame" x="10" y="144" width="118" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="10.000000000000007" y="150" width="125.66666666666669" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QtE-fr-2sc">
-                                        <rect key="frame" x="10" y="90" width="273" height="34"/>
+                                        <rect key="frame" x="10" y="96" width="273" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LOB-IE-Lh1">
-                                        <rect key="frame" x="10" y="175" width="273" height="34"/>
+                                        <rect key="frame" x="10" y="181" width="273" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wnq-Mx-7iq">
-                                        <rect key="frame" x="195" y="229" width="78" height="35"/>
+                                        <rect key="frame" x="195" y="230" width="78" height="35"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
@@ -198,7 +201,7 @@
                                     <constraint firstItem="QtE-fr-2sc" firstAttribute="leading" secondItem="EK7-nF-Xhc" secondAttribute="leading" constant="10" id="irq-of-UYN"/>
                                     <constraint firstItem="qJD-4K-lft" firstAttribute="top" secondItem="QtE-fr-2sc" secondAttribute="bottom" constant="20" id="oST-tO-iMr"/>
                                     <constraint firstItem="eD6-Ad-ZQd" firstAttribute="leading" secondItem="EK7-nF-Xhc" secondAttribute="leading" constant="10" id="rqo-Dx-kuU"/>
-                                    <constraint firstItem="Wnq-Mx-7iq" firstAttribute="top" secondItem="LOB-IE-Lh1" secondAttribute="bottom" constant="20" id="s7b-mL-LGK"/>
+                                    <constraint firstItem="Wnq-Mx-7iq" firstAttribute="top" secondItem="LOB-IE-Lh1" secondAttribute="bottom" constant="15" id="s7b-mL-LGK"/>
                                     <constraint firstItem="LOB-IE-Lh1" firstAttribute="leading" secondItem="EK7-nF-Xhc" secondAttribute="leading" constant="10" id="sUP-JP-PzR"/>
                                     <constraint firstItem="LOB-IE-Lh1" firstAttribute="top" secondItem="qJD-4K-lft" secondAttribute="bottom" constant="10" id="sax-EO-u1K"/>
                                     <constraint firstAttribute="trailing" secondItem="LOB-IE-Lh1" secondAttribute="trailing" constant="10" id="vWl-ys-rqa"/>
@@ -211,17 +214,17 @@
                         <constraints>
                             <constraint firstItem="EK7-nF-Xhc" firstAttribute="leading" secondItem="7rA-XT-iHE" secondAttribute="leading" constant="50" id="8AC-bO-wgN"/>
                             <constraint firstItem="EK7-nF-Xhc" firstAttribute="centerX" secondItem="Tw5-pp-KXe" secondAttribute="centerX" id="Da1-zZ-qUj"/>
-                            <constraint firstItem="vok-fw-THR" firstAttribute="top" secondItem="Tw5-pp-KXe" secondAttribute="top" id="HI4-Zn-QZB"/>
-                            <constraint firstAttribute="bottom" secondItem="vok-fw-THR" secondAttribute="bottom" id="JKm-Qs-vPh"/>
+                            <constraint firstItem="vok-fw-THR" firstAttribute="top" secondItem="Tw5-pp-KXe" secondAttribute="top" id="G9y-19-pjm"/>
                             <constraint firstItem="7rA-XT-iHE" firstAttribute="trailing" secondItem="vok-fw-THR" secondAttribute="trailing" id="Qub-8x-bsJ"/>
                             <constraint firstItem="EK7-nF-Xhc" firstAttribute="centerY" secondItem="Tw5-pp-KXe" secondAttribute="centerY" id="aqt-Tn-SYa"/>
                             <constraint firstItem="vok-fw-THR" firstAttribute="leading" secondItem="7rA-XT-iHE" secondAttribute="leading" id="h4h-jr-IcA"/>
+                            <constraint firstAttribute="bottom" secondItem="vok-fw-THR" secondAttribute="bottom" id="lDA-0c-acr"/>
                             <constraint firstItem="7rA-XT-iHE" firstAttribute="trailing" secondItem="EK7-nF-Xhc" secondAttribute="trailing" constant="50" id="ocs-eX-Ggn"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="backView" destination="EK7-nF-Xhc" id="1nr-Xt-IrM"/>
-                        <outlet property="closeButton" destination="vok-fw-THR" id="EHJ-pJ-dkZ"/>
+                        <outlet property="closeButton" destination="vok-fw-THR" id="ybd-MM-E97"/>
                         <outlet property="submitButton" destination="Wnq-Mx-7iq" id="rzJ-Np-lMg"/>
                         <outlet property="taxNameTF" destination="QtE-fr-2sc" id="Yar-Mm-eaX"/>
                         <outlet property="taxPercentageTF" destination="LOB-IE-Lh1" id="Ktr-6D-pAw"/>
@@ -241,7 +244,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Jn-TV-EBT">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
@@ -253,13 +256,13 @@
                                 <rect key="frame" x="50" y="286" width="293" height="280"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update Tax" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YhF-ej-2li">
-                                        <rect key="frame" x="10" y="10" width="83" height="18"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <rect key="frame" x="10" y="10" width="106" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VS4-XU-vai">
-                                        <rect key="frame" x="258" y="6.6666666666666856" width="25" height="25"/>
+                                        <rect key="frame" x="258" y="9.6666666666666856" width="25" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="Dry-AV-Q6G"/>
                                             <constraint firstAttribute="width" constant="25" id="ghb-MW-7QX"/>
@@ -272,25 +275,25 @@
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fnL-eg-AS6">
-                                        <rect key="frame" x="10" y="41.666666666666686" width="273" height="1"/>
+                                        <rect key="frame" x="10" y="44.666666666666686" width="273" height="1"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="xTe-VN-xiG"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tax Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reU-dg-rf0">
-                                        <rect key="frame" x="10" y="62.666666666666686" width="76" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="10" y="65.666666666666686" width="79.666666666666671" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vzk-gZ-m24">
-                                        <rect key="frame" x="10" y="93.666666666666686" width="273" height="34"/>
+                                        <rect key="frame" x="10" y="96.666666666666686" width="273" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DdS-ih-907">
-                                        <rect key="frame" x="193" y="232.66666666666663" width="80" height="35"/>
+                                        <rect key="frame" x="193" y="230.66666666666663" width="80" height="35"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
@@ -300,13 +303,13 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tax Percentage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4J-gp-Ho0">
-                                        <rect key="frame" x="10" y="147.66666666666669" width="118" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="10.000000000000007" y="150.66666666666669" width="125.66666666666669" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uHg-2b-EIq">
-                                        <rect key="frame" x="10" y="178.66666666666669" width="273" height="34"/>
+                                        <rect key="frame" x="10" y="181.66666666666669" width="273" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -332,7 +335,7 @@
                                     <constraint firstItem="fnL-eg-AS6" firstAttribute="leading" secondItem="AG4-3r-NfF" secondAttribute="leading" constant="10" id="sEW-ES-S2w"/>
                                     <constraint firstItem="Vzk-gZ-m24" firstAttribute="leading" secondItem="AG4-3r-NfF" secondAttribute="leading" constant="10" id="uTv-Oq-PFN"/>
                                     <constraint firstAttribute="trailing" secondItem="fnL-eg-AS6" secondAttribute="trailing" constant="10" id="ywn-5I-9ki"/>
-                                    <constraint firstItem="DdS-ih-907" firstAttribute="top" secondItem="uHg-2b-EIq" secondAttribute="bottom" constant="20" id="zMw-Ig-FNP"/>
+                                    <constraint firstItem="DdS-ih-907" firstAttribute="top" secondItem="uHg-2b-EIq" secondAttribute="bottom" constant="15" id="zMw-Ig-FNP"/>
                                 </constraints>
                             </view>
                         </subviews>

@@ -19,11 +19,14 @@ class UpdateTaxViewController: UIViewController {
     var taxToEdit: TaxModel?
     var delegate: TaxListTVCDelegate?
     var indexPath: IndexPath?
-    
+    var onUpdateTax: (() -> Void)?
     override func viewDidLoad() {
         super.viewDidLoad()
-        closeButton.alpha = 0.01
         
+        backView.applyCardStyle()
+        taxPercentageTF.applyCardStyle()
+        taxNameTF.applyCardStyle()
+        updateButton.applyCardStyle()
         if let tax = taxToEdit {
             taxNameTF.text = tax.name
             taxPercentageTF.text = tax.percentage
@@ -73,7 +76,7 @@ class UpdateTaxViewController: UIViewController {
         if let indexPath = indexPath {
             delegate?.didTapEditButton(forTax: selectedTax, at: indexPath)
         }
-        
+        onUpdateTax?()
         // Dismiss the view after updating
         dismiss(animated: true)
     }

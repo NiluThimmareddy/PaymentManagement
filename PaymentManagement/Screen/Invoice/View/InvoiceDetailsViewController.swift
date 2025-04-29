@@ -104,7 +104,11 @@ class InvoiceDetailsViewController: UIViewController {
     private let invoiceVM = InvoiceViewModel()
     
     //OUTLETS
-    @IBOutlet weak var invoiceHeaderViewTV: UITableView!
+    @IBOutlet weak var invoiceHeaderViewView: UIView!
+    @IBOutlet weak var invoiceHeaderScrollView: UIScrollView!
+    @IBOutlet weak var invoiceHeaderScrollViewContentView: UIView!
+    @IBOutlet weak var invoiceHeaderStackView: UIStackView!
+    @IBOutlet weak var invoiceHeaderViewScrollContentWidthConstraint: NSLayoutConstraint!
     @IBOutlet weak var printButton: UIButton!
     @IBOutlet weak var copyRightLbl: UILabel!
     @IBOutlet weak var remarksContentLbl: UILabel!
@@ -146,24 +150,16 @@ class InvoiceDetailsViewController: UIViewController {
         invoiceSmallTableBackView.layer.borderWidth = 1
         invoiceSmallTableBackView.layer.borderColor = UIColor(red: 224/255, green: 224/255, blue: 224/255, alpha: 1).cgColor
         invoiceDetailsTV.register(UINib(nibName: "invoiceDetailsTVC", bundle: nil), forCellReuseIdentifier: "invoiceDetailsTVC")
-        invoiceHeaderViewTV.register(UINib(nibName: "invoiceDetailsTVC", bundle: nil), forCellReuseIdentifier: "invoiceDetailsTVC")
-        
         printButton.layer.cornerRadius = 10
         fetchCustomerData()
-//        addNewCustomer()
-//        updateCustomer()
-//        deleteCustomer()
+        invoiceHeaderScrollView.delegate = self
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-//        fetchCustomerData()
-//        addNewCustomer()
-//        updateCustomer()
-//        deleteCustomer()
         let numberOfRows = invoiceDetailsTV.numberOfRows(inSection: 0)
-        let rowHeight: CGFloat = 55
-        let baseTableHeight: CGFloat = 60
-        let defaultContentViewHeight: CGFloat = 834
+        let rowHeight: CGFloat = 50
+        let baseTableHeight: CGFloat = 50
+        let defaultContentViewHeight: CGFloat = 836
         let tableViewHeight = max(baseTableHeight, CGFloat(numberOfRows) * rowHeight)
         invoiceDetailsTVHeightConstraint.constant = tableViewHeight
         invoiceContentViewHeightConstraint.constant = defaultContentViewHeight + tableViewHeight - baseTableHeight
@@ -270,19 +266,20 @@ class InvoiceDetailsViewController: UIViewController {
     }
     
 }
-extension InvoiceDetailsViewController: UITableViewDelegate, UITableViewDataSource, InvoiceScrollSyncDelegate{
-
+extension InvoiceDetailsViewController: UITableViewDelegate, UITableViewDataSource, InvoiceScrollSyncDelegate,UIScrollViewDelegate{
+    
     func didScroll(contentOffset: CGPoint) {
-        invoiceHeaderView?.scrollView.contentOffset = contentOffset
+        invoiceHeaderScrollView.contentOffset = contentOffset
         for cell in invoiceDetailsTV.visibleCells {
             if let invoiceCell = cell as? invoiceDetailsTVC {
                 invoiceCell.scrollView.contentOffset = contentOffset
             }
         }
     }
+    
 
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        guard scrollView == invoiceHeaderView?.scrollView else { return }
+        guard scrollView == invoiceHeaderScrollView else { return }
         let offset = scrollView.contentOffset
         for cell in invoiceDetailsTV.visibleCells {
             if let invoiceCell = cell as? invoiceDetailsTVC {
@@ -291,62 +288,41 @@ extension InvoiceDetailsViewController: UITableViewDelegate, UITableViewDataSour
         }
     }
 
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if invoiceHeaderViewTV == tableView{
-            return 0
-        }else{
-            return callInvoiceItem.count
-//            self.invoiceVM.invoices.count
-        }
+        return callInvoiceItem.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if invoiceHeaderViewTV == tableView{
-            
-        }else{
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: "invoiceDetailsTVC", for: indexPath) as? invoiceDetailsTVC else {
-                return UITableViewCell()
-            }
-            
-            let item = callInvoiceItem[indexPath.row]
-//            invoiceVM.invoices[indexPath.row]
-            cell.scrollDelegate = self
-            cell.configureCell(sNo: indexPath.row + 1, with: item)
-            
-            
-            return cell
-        }
-        return UITableViewCell()
-    }
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if invoiceHeaderViewTV == tableView{
-            return 50
-        }else{
-            return 50
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "invoiceDetailsTVC", for: indexPath) as? invoiceDetailsTVC else {
+            return UITableViewCell()
         }
         
+        let item = callInvoiceItem[indexPath.row]
+        //            invoiceVM.invoices[indexPath.row]
+        cell.scrollDelegate = self
+        cell.configureCell(sNo: indexPath.row + 1, with: item)
+        return cell
+        
     }
-    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        if invoiceHeaderViewTV == tableView{
-            if let headerView = Bundle.main.loadNibNamed("invoiceDetailsHeaderView", owner: self, options: nil)?.first as? invoiceDetailsHeaderView {
-                self.invoiceHeaderView = headerView
-                headerView.scrollDelegate = self
-                headerView.scrollView.delegate = headerView
-                return headerView
-            }
-        }else if invoiceDetailsTV == tableView{
-            return nil
-        }
-            return nil
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 50
     }
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        if invoiceHeaderViewTV == tableView{
-            return 50
-        }else if invoiceDetailsTV == tableView{
-            return 0
-        }else{
-            return 0
-        }
-    }
-    
 }
+
+
+//    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+//    if let headerView = Bundle.main.loadNibNamed("invoiceDetailsHeaderView", owner: self, options: nil)?.first as? invoiceDetailsHeaderView {
+//                self.invoiceHeaderView = headerView
+//                headerView.scrollDelegate = self
+//                headerView.scrollView.delegate = headerView
+//                return headerView
+//        }
+//            return nil
+//    }
+//    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+//            return 50
+//
+//    }
+    

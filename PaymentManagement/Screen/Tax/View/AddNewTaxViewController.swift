@@ -8,15 +8,21 @@
 import UIKit
 
 class AddNewTaxViewController: UIViewController {
-    
+  
     @IBOutlet weak var backView: UIView!
     @IBOutlet weak var closeButton: UIButton!
     @IBOutlet weak var submitButton: UIButton!
     @IBOutlet weak var taxPercentageTF: UITextField!
     @IBOutlet weak var taxNameTF: UITextField!
+    
+    var onTaxAdded: (() -> Void)?
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        closeButton.alpha = 0.01
+       
+        backView.applyCardStyle()
+        submitButton.applyCardStyle()
     }
     
     
@@ -38,7 +44,7 @@ class AddNewTaxViewController: UIViewController {
         
         // Save the tax in Core Data
         CoreDataManager.shared.saveTax(name: taxName, percentage: taxPercentageText)
-        
+        onTaxAdded?()
         // Dismiss the view controller after saving
         dismiss(animated: true)
     }

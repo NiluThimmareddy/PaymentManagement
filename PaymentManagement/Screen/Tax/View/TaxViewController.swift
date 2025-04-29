@@ -8,7 +8,9 @@
 import UIKit
 import CoreData
 
-class TaxViewController: UIViewController {
+class TaxViewController: UIViewController{
+   
+    
 
     @IBOutlet weak var taxListTV: UITableView!
     @IBOutlet weak var addNewButton: UIButton!
@@ -16,38 +18,61 @@ class TaxViewController: UIViewController {
     @IBOutlet weak var taxLineView: UIView!
     @IBOutlet weak var taxlistLbl: UILabel!
     
+   
     var taxViewModel = TaxViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         taxViewModel.fetchTaxes()
         taxListTV.register(UINib(nibName: "TaxListTVC", bundle: nil), forCellReuseIdentifier: "TaxListTVC")
-        
+        taxListBackView.applyCardStyle()
+        addNewButton.applyCardStyle()
     }
     
     @IBAction func addNewButton(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Tax", bundle: nil)
         let controller = storyboard.instantiateViewController(identifier: "AddNewTaxViewController")as! AddNewTaxViewController
+        controller.onTaxAdded = { [weak self] in
+            self?.taxViewModel.fetchTaxes()
+            self?.taxListTV.reloadData()
+        }
         self.present(controller, animated: true)
     }
-    
     
 }
 
 extension TaxViewController: UITableViewDelegate, UITableViewDataSource,TaxListTVCDelegate{
     func didTapDeleteButton(forTax tax: TaxModel, at indexPath: IndexPath) {
         if let taxToDelete = CoreDataManager.shared.fetchTaxes().first(where: { $0.taxName == tax.name }) {
-            CoreDataManager.shared.deleteTax(tax: taxToDelete)
-            taxViewModel.taxes.remove(at: indexPath.row)
-            taxListTV.deleteRows(at: [indexPath], with: .automatic)
-        }
+                // Delete from Core Data
+                CoreDataManager.shared.deleteTax(tax: taxToDelete)
+                
+                // Re-fetch updated data
+                taxViewModel.taxes = CoreDataManager.shared.fetchTaxes().map {
+                    TaxModel(name: $0.taxName ?? "", percentage: $0.taxPercentage ?? "")
+                }
+                
+                // Safety check
+                if taxViewModel.taxes.indices.contains(indexPath.row) {
+                    taxListTV.beginUpdates()
+                    taxListTV.deleteRows(at: [indexPath], with: .automatic)
+                    taxListTV.endUpdates()
+                } else {
+                    taxListTV.reloadData() // fallback for last item
+                }
+            }
     }
+
     
     func didTapEditButton(forTax tax: TaxModel, at indexPath: IndexPath) {
         let storyboard = UIStoryboard(name: "Tax", bundle: nil)
         let controller = storyboard.instantiateViewController(identifier: "UpdateTaxViewController") as! UpdateTaxViewController
         controller.taxToEdit = tax
         controller.indexPath = indexPath
+        controller.onUpdateTax = { [weak self] in
+            self?.taxViewModel.fetchTaxes()
+            self?.taxListTV.reloadData()
+        }
         self.present(controller, animated: true)
     }
     

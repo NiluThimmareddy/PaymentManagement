@@ -18,15 +18,15 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUq-qT-D18">
-                        <rect key="frame" x="5" y="5" width="595" height="50"/>
+                        <rect key="frame" x="0.0" y="5" width="605" height="50"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NLJ-d3-i3V">
-                                <rect key="frame" x="0.0" y="0.0" width="595" height="50"/>
+                                <rect key="frame" x="0.0" y="0.0" width="605" height="50"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YTA-pi-glY">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="xqF-gj-Yzy">
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="xqF-gj-Yzy">
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S.No" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jbo-sf-5PA">
@@ -37,28 +37,28 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ITEM DESC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ap1-wB-If7">
-                                                        <rect key="frame" x="55" y="0.0" width="187" height="50"/>
+                                                        <rect key="frame" x="56" y="0.0" width="182" height="50"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QUANTITY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMe-Xg-S5C">
-                                                        <rect key="frame" x="243" y="0.0" width="90" height="50"/>
+                                                        <rect key="frame" x="240" y="0.0" width="90" height="50"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AMOUNT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJp-9Z-V5a">
-                                                        <rect key="frame" x="334" y="0.0" width="90" height="50"/>
+                                                        <rect key="frame" x="332" y="0.0" width="90" height="50"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TAX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cp-aQ-gLm">
-                                                        <rect key="frame" x="425" y="0.0" width="54" height="50"/>
+                                                        <rect key="frame" x="424" y="0.0" width="54" height="50"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -77,13 +77,11 @@
                                                     <constraint firstItem="BMe-Xg-S5C" firstAttribute="width" secondItem="xqF-gj-Yzy" secondAttribute="width" multiplier="0.15" id="442-f3-reS">
                                                         <variation key="heightClass=regular-widthClass=regular" constant="1"/>
                                                     </constraint>
+                                                    <constraint firstItem="MPl-Nk-Up6" firstAttribute="width" secondItem="xqF-gj-Yzy" secondAttribute="width" multiplier="0.2" id="QMj-MS-vGA"/>
                                                     <constraint firstItem="Jbo-sf-5PA" firstAttribute="width" secondItem="xqF-gj-Yzy" secondAttribute="width" multiplier="0.09" id="Z5Z-dk-F4t">
                                                         <variation key="heightClass=regular-widthClass=regular" constant="1"/>
                                                     </constraint>
                                                     <constraint firstItem="RJp-9Z-V5a" firstAttribute="width" secondItem="xqF-gj-Yzy" secondAttribute="width" multiplier="0.15" id="d12-8p-Suf">
-                                                        <variation key="heightClass=regular-widthClass=regular" constant="1"/>
-                                                    </constraint>
-                                                    <constraint firstItem="MPl-Nk-Up6" firstAttribute="width" secondItem="xqF-gj-Yzy" secondAttribute="width" multiplier="0.2" id="ffE-Ek-yi5">
                                                         <variation key="heightClass=regular-widthClass=regular" constant="1"/>
                                                     </constraint>
                                                     <constraint firstItem="7Cp-aQ-gLm" firstAttribute="width" secondItem="xqF-gj-Yzy" secondAttribute="width" multiplier="0.09" id="o55-AA-b3c">
@@ -123,9 +121,9 @@
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="gUq-qT-D18" secondAttribute="trailing" constant="5" id="8cy-xy-Bkq"/>
+                    <constraint firstAttribute="trailing" secondItem="gUq-qT-D18" secondAttribute="trailing" id="8cy-xy-Bkq"/>
                     <constraint firstItem="gUq-qT-D18" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Lvm-MI-4Ay"/>
-                    <constraint firstItem="gUq-qT-D18" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="YSv-dV-Ck0"/>
+                    <constraint firstItem="gUq-qT-D18" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="YSv-dV-Ck0"/>
                     <constraint firstAttribute="bottom" secondItem="gUq-qT-D18" secondAttribute="bottom" constant="5" id="hYG-hC-GrT"/>
                 </constraints>
             </tableViewCellContentView>

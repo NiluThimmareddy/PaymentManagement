@@ -7,5 +7,11 @@
 
 import UIKit
 class TaxHeaderView: UIView{
-    
+    @IBOutlet weak var titleStackView: UIStackView!
+    @IBOutlet weak var titleview: UIView!
+    override func awakeFromNib() {
+           super.awakeFromNib()
+           titleview.applyCardStyle()
+        titleStackView.applyCardStyle()
+       }
 }
