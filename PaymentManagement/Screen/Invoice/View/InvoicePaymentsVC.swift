@@ -60,7 +60,7 @@ extension InvoicePaymentsVC : UITableViewDelegate, UITableViewDataSource,Invoice
         let storyboard = UIStoryboard(name: "Invoice", bundle: nil)
         let controller = storyboard.instantiateViewController(identifier: "InvoiceDetailsViewController") as! InvoiceDetailsViewController
         controller.passData = data
-        present(controller, animated: true)
+        self.navigationController?.pushViewController(controller, animated: true)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
